@@ -1,0 +1,27 @@
+== 表的结构 the_out
+
+|------
+|字段|类型|空|默认
+|------
+|//**the_out_id**//|int(11)|否|
+|m_wf_id|int(11)|是|NULL
+|subject_no|varchar(100)|是|NULL
+|the_out_type|varchar(255)|是|NULL
+|the_come_date|date|是|NULL
+|the_out_date|date|是|NULL
+|the_receive_date|datetime|是|NULL
+|oem_receiver|varchar(10)|是|NULL
+|receive_remark|varchar(150)|是|NULL
+|the_out_no|varchar(50)|是|NULL
+|out_price|varchar(50)|是|NULL
+|oem_num|double(12,2)|是|NULL
+|the_come_num|varchar(50)|是|NULL
+|out_oam_no|varchar(20)|是|NULL
+|oem_accept|varchar(4)|是|0
+|oem_check|varchar(2)|是|0
+|receive_check|varchar(2)|是|0
+|oem_receive_no|varchar(20)|是|NULL
+|oem_check_no|varchar(20)|是|NULL
+|oem_purchase_order|varchar(50)|是|NULL
+|is_finshed|varchar(2)|否|0
+|product_p|varchar(10)|否|

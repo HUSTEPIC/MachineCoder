@@ -1,0 +1,15 @@
+== 表的结构 equipment_zonghebiao
+
+|------
+|字段|类型|空|默认
+|------
+|//**zonghe_id**//|int(3)|否|
+|equipment_no|varchar(12)|是|NULL
+|baoxiu_person|varchar(30)|是|NULL
+|baoxiu_time|datetime|否|0000-00-00 00:00:00
+|baoxiu_reason|varchar(255)|是|NULL
+|weixiu_person|varchar(30)|是|NULL
+|weixiu_time|datetime|否|0000-00-00 00:00:00
+|equipment_xx|varchar(255)|是|NULL
+|equipment_cs|varchar(255)|是|NULL
+|remarks|varchar(255)|是|NULL

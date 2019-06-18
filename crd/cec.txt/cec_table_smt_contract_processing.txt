@@ -1,0 +1,14 @@
+== 表的结构 smt_contract_processing
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(9)|否|
+|cid|int(9)|否|
+|processing|varchar(50)|否|
+|number|int(9)|否|
+|subtotal|double(10,4)|否|
+|unit|double(5,3)|否|
+|charge|enum('0', '1')|否|
+|kehu|varchar(10)|是|NULL
+|mian|varchar(10)|是|NULL

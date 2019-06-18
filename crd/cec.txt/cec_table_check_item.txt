@@ -1,0 +1,13 @@
+== 表的结构 check_item
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(4)|否|
+|work_list_cid|int(4)|是|NULL
+|check_item|varchar(30)|是|NULL
+|check_method|varchar(30)|否|
+|check_tool|varchar(30)|否|
+|spot_check|char(1)|否|
+|all_check|char(1)|否|
+|remark|text|否|

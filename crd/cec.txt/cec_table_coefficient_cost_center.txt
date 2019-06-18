@@ -1,0 +1,12 @@
+== 表的结构 coefficient_cost_center
+
+|------
+|字段|类型|空|默认
+|------
+|//**cost_id**//|int(10)|否|
+|cost_center|varchar(24)|是|NULL
+|labor_coefficient|double(5,3)|是|NULL
+|depreciation_coefficient|double(5,3)|是|NULL
+|water_elect_coefficient|double(5,3)|是|NULL
+|travel_coefficient|double(5,3)|是|NULL
+|other_coefficient|double(5,3)|是|NULL

@@ -1,0 +1,9 @@
+== 表的结构 art_para_record
+
+|------
+|字段|类型|空|默认
+|------
+|//**reco_id**//|int(7)|否|
+|para_id|int(6)|是|NULL
+|lot_id|int(10)|是|NULL
+|para_val|double(7,3)|是|NULL

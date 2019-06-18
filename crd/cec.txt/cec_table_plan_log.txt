@@ -1,0 +1,11 @@
+== 表的结构 plan_log
+
+|------
+|字段|类型|空|默认
+|------
+|//**plan_log_id**//|int(11)|否|
+|plan_oper|varchar(32)|否|
+|plan_oper_time|date|否|0000-00-00
+|manu_wf_id|int(11)|否|
+|plan_operator|varchar(32)|否|
+|plan_art_name|varchar(50)|否|

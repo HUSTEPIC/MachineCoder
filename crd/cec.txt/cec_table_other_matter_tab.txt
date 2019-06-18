@@ -1,0 +1,10 @@
+== 表的结构 other_matter_tab
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(10)|否|
+|pid|int(15)|是|NULL
+|other_matter|text|是|NULL
+|add_user|varchar(100)|是|NULL
+|add_time|datetime|是|NULL

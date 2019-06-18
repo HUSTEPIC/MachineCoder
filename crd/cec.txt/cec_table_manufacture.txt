@@ -1,0 +1,69 @@
+== 表的结构 manufacture
+
+|------
+|字段|类型|空|默认
+|------
+|//**mid**//|int(9)|否|
+|pid|int(10)|是|NULL
+|cid|int(9)|是|NULL
+|pid_layer_num|varchar(35)|是|NULL
+|qae_remark|varchar(200)|是|NULL
+|ck_area|decimal(15,4)|是|0.0000
+|contract_no|varchar(35)|是|NULL
+|recontract_no|varchar(35)|否|
+|file_pigeonhole|varchar(12)|是|NULL
+|batch|varchar(12)|否|
+|exterior_means|enum('R', 'N', 'C', 'V', 'L')|否|N
+|exterior_means2|enum('R', 'N', 'C', 'V', 'L')|是|NULL
+|ccl_long|double(6,2)|否|
+|ccl_width|double(6,2)|否|
+|ronghcast_number1|mediumint(9)|是|NULL
+|ronghcast_number2|mediumint(9)|是|NULL
+|ronghcast_number3|mediumint(9)|是|NULL
+|ronghcast_number4|mediumint(9)|是|NULL
+|ronghcast_number|int(5)|是|NULL
+|graph_art|enum('A', 'B', 'C')|是|NULL
+|graph_art_in|char(2)|是|NULL
+|e_test_type|enum('H', 'L', 'F', 'M')|是|NULL
+|test_vot|varchar(4)|是|NULL
+|pack|tinyint(1)|是|NULL
+|rout|varchar(40)|是|NULL
+|d_hole|varchar(20)|是|NULL
+|product_p|varchar(20)|是|NULL
+|cid_p|int(3)|是|NULL
+|spec|text|是|NULL
+|replenish|varchar(20)|否|0
+|finish_num|int(10)|否|0
+|finish_date|date|否|0000-00-00
+|pcb_in_num|int(9)|否|0
+|pcb_in_date|datetime|否|0000-00-00 00:00:00
+|remark|text|是|NULL
+|checker|varchar(12)|是|NULL
+|is_pb|tinyint(1)|否|0
+|pb_user|varchar(50)|是|NULL
+|pb_time|datetime|是|0000-00-00 00:00:00
+|manufer|varchar(12)|是|NULL
+|test_no|varchar(10)|是|NULL
+|begin_time|date|是|NULL
+|test_point|int(6)|是|NULL
+|checktime|datetime|否|0000-00-00 00:00:00
+|manuftime|datetime|是|NULL
+|set_number|int(9)|是|NULL
+|enter_manufacture|datetime|否|0000-00-00 00:00:00
+|qs_person|varchar(20)|是|NULL
+|qs_date|date|否|0000-00-00
+|m_delivery_datetime|date|是|NULL
+|manu_mi|char(1)|是|NULL
+|zf_film_art|tinyint(1)|否|0
+|make_color|varchar(8)|是|NULL
+|surplus_remark|char(1)|是|NULL
+|half_product|char(1)|是|0
+|is_in_storage|enum('0', '1')|否|1
+|reviewer|varchar(50)|是|NULL
+|oem_send_mid|int(3)|是|NULL
+|pcb_in_order|varchar(150)|是|NULL
+|x_num|tinyint(2)|否|1
+|y_num|tinyint(2)|否|1
+|adv_ratio|varchar(200)|是|NULL
+|pnl_remark|varchar(200)|是|NULL
+|product_type|int(1)|是|0

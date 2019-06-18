@@ -1,0 +1,10 @@
+== 表的结构 other_cost_standard
+
+|------
+|字段|类型|空|默认
+|------
+|//**other_stand_id**//|int(5)|否|
+|cost_center|varchar(24)|是|NULL
+|pro_type|enum('1', '2', '3')|否|1
+|layer_num|varchar(6)|是|NULL
+|other_standard_amount|double(10,4)|是|NULL

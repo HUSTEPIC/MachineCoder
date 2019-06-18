@@ -1,0 +1,12 @@
+== 表的结构 department
+
+|------
+|字段|类型|空|默认
+|------
+|//**deptid**//|int(10)|否|
+|deptname|varchar(100)|是|NULL
+|highdeptid|varchar(100)|否|0
+|managerid|varchar(25)|是|NULL
+|art_char|varchar(255)|是|NULL
+|qc_code|varchar(10)|是|
+|pristr|text|是|NULL

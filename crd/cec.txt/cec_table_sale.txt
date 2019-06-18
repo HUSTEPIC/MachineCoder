@@ -1,0 +1,18 @@
+== 表的结构 sale
+
+|------
+|字段|类型|空|默认
+|------
+|//**sale_id**//|int(7)|否|
+|customer_no|varchar(5)|否|
+|sale_no|int(12)|否|0
+|box_num|int(5)|是|NULL
+|contract_no|varchar(35)|否|
+|sale_contract_no|varchar(30)|是|NULL
+|sign|enum('0', '1')|是|NULL
+|sale_money|double(14,4)|是|NULL
+|sale_date|date|是|NULL
+|sign_date|date|是|NULL
+|express|varchar(100)|是|NULL
+|designer|varchar(12)|是|NULL
+|other_inter|varchar(255)|是|NULL

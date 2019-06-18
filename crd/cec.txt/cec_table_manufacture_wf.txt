@@ -1,0 +1,47 @@
+== 表的结构 manufacture_wf
+
+|------
+|字段|类型|空|默认
+|------
+|//**manu_wf_id**//|int(9)|否|
+|cid|int(9)|是|NULL
+|lot_id|int(10)|是|NULL
+|mi_id|int(12)|是|NULL
+|ver_no|varchar(3)|是|NULL
+|art_no|varchar(4)|是|NULL
+|art_name|varchar(22)|是|NULL
+|plan_position|int(3)|是|NULL
+|priority|int(3)|否|999
+|plan_date|date|是|NULL
+|plan_over|date|是|NULL
+|inlayer|tinyint(1)|否|0
+|display_order|tinyint(2)|是|NULL
+|plane_display_order_first|tinyint(1)|否|0
+|is_online_count|tinyint(1)|否|0
+|plan_start|datetime|是|NULL
+|plan_end|datetime|是|NULL
+|limit_time|smallint(5)|是|NULL
+|oem|tinyint(1)|否|0
+|is_oem_account|int(2)|否|0
+|oem_over_time|datetime|否|0000-00-00 00:00:00
+|oem_remark|varchar(255)|是|NULL
+|oem_who|varchar(25)|是|NULL
+|art_num|int(5)|否|0
+|count_art_time|datetime|否|0000-00-00 00:00:00
+|art_who|varchar(25)|是|NULL
+|art_who_deptid|varchar(100)|是|NULL
+|pre_gs_num|int(5)|否|0
+|ol_num|int(5)|是|NULL
+|enter_num|int(5)|否|0
+|enter_person|varchar(35)|是|NULL
+|enter_date|datetime|是|0000-00-00 00:00:00
+|pre_enter_num|int(5)|是|0
+|check_num|int(10)|是|NULL
+|check_good_num|smallint(5)|是|NULL
+|check_bad_num|smallint(5)|是|NULL
+|check_result|varchar(255)|是|NULL
+|check_who_id|varchar(25)|是|NULL
+|dt_num|varchar(15)|是|NULL
+|art_name_fz|int(2)|否|0
+|remun_adj|double(5,2)|是|NULL
+|press_times|smallint(2)|是|NULL

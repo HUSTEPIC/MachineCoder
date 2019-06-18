@@ -1,0 +1,8 @@
+== 表的结构 coefficient_type
+
+|------
+|字段|类型|空|默认
+|------
+|//**typ_id**//|int(5)|否|
+|pro_type|enum('1', '2', '3')|否|1
+|type_coefficient|double(5,3)|是|NULL

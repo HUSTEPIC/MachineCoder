@@ -1,0 +1,22 @@
+== 表的结构 component_buy
+
+|------
+|字段|类型|空|默认
+|------
+|//**cp_id**//|int(11)|否|
+|cp_no|varchar(50)|是|NULL
+|cp_name|varchar(100)|是|NULL
+|cp_model|varchar(100)|是|NULL
+|cp_type|varchar(50)|是|NULL
+|cp_target|varchar(50)|是|NULL
+|cp_unit|varchar(20)|是|NULL
+|cp_use|varchar(50)|是|NULL
+|cp_num|double(8,0)|是|0
+|cp_need_date|date|是|NULL
+|cp_remark|varchar(200)|是|NULL
+|cp_from|varchar(50)|是|NULL
+|cp_master|varchar(20)|是|NULL
+|cp_deptman|varchar(20)|是|NULL
+|cp_store|varchar(30)|是|NULL
+|cp_proposer|varchar(20)|是|NULL
+|cp_date|date|是|NULL

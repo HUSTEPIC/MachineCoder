@@ -1,0 +1,13 @@
+== 表的结构 film_type_main
+
+|------
+|字段|类型|空|默认
+|------
+|//**main_id**//|int(3)|否|
+|fid|int(3)|是|NULL
+|positive|varchar(35)|是|NULL
+|negative|varchar(35)|是|NULL
+|g_positive|varchar(35)|是|NULL
+|g_negative|varchar(35)|是|NULL
+|rows|int(1)|是|NULL
+|cells|int(1)|是|NULL

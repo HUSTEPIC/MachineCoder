@@ -1,0 +1,17 @@
+== 表的结构 temp_table
+
+|------
+|字段|类型|空|默认
+|------
+|//**temp_id**//|int(6)|否|
+|temp_remark|varchar(15)|是|NULL
+|temp_product|varchar(15)|是|NULL
+|temp_long|double(5,2)|是|NULL
+|temp_width|double(5,2)|是|NULL
+|ck_area|decimal(15,4)|是|NULL
+|plan_x|tinyint(2)|否|1
+|area_x|double(15,4)|否|
+|temp_sv|double(7,4)|是|NULL
+|paneled|tinyint(2)|是|NULL
+|left_top|tinyint(2)|是|NULL
+|row_mark|tinyint(2)|是|NULL

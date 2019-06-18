@@ -1,0 +1,16 @@
+== 表的结构 bom
+
+|------
+|字段|类型|空|默认
+|------
+|//**bid**//|int(4)|否|
+|work_list_cid|int(4)|是|NULL
+|bnum|int(4)|是|NULL
+|bname|varchar(50)|是|NULL
+|btype_specification|varchar(50)|是|NULL
+|bquantity|varchar(50)|是|NULL
+|bit_number|varchar(50)|是|NULL
+|bmaterial_number|varchar(50)|是|NULL
+|bremark|varchar(50)|是|NULL
+|bart_name|varchar(50)|是|NULL
+|beiliao|varchar(3)|是|NULL

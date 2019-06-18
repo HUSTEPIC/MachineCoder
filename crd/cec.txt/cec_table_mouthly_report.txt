@@ -1,0 +1,9 @@
+== 表的结构 mouthly_report
+
+|------
+|字段|类型|空|默认
+|------
+|//**report_id**//|int(4)|否|
+|mouthly_no|varchar(30)|是|NULL
+|report_date_start|date|是|NULL
+|report_date_end|date|是|NULL

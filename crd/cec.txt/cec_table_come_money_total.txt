@@ -1,0 +1,9 @@
+== 表的结构 come_money_total
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(6)|否|
+|bank|enum('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R')|是|NULL
+|total_money|double(14,4)|是|NULL
+|total_date|date|是|NULL

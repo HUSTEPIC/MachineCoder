@@ -1,0 +1,10 @@
+== 表的结构 replace_log
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(5)|否|
+|opretion_person|varchar(50)|是|NULL
+|opretion_time|datetime|是|NULL
+|ctype|varchar(100)|是|NULL
+|log_str|mediumtext|是|NULL

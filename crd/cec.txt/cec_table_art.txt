@@ -1,0 +1,14 @@
+== 表的结构 art
+
+|------
+|字段|类型|空|默认
+|------
+|//**art_id**//|int(10)|否|
+|art_name|varchar(35)|是|NULL
+|**art_code**|varchar(10)|是|NULL
+|is_count|tinyint(1)|是|NULL
+|is_qc|tinyint(1)|是|NULL
+|is_inspc|int(1)|是|NULL
+|is_mr|varchar(10)|是|NULL
+|display_order|int(2)|是|NULL
+|the_art_type|varchar(100)|是|NULL

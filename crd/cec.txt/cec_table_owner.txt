@@ -1,0 +1,10 @@
+== 表的结构 owner
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(7)|否|
+|come_money|double(20,4)|是|NULL
+|on_money|double(20,4)|是|NULL
+|money|double(20,4)|是|NULL
+|anasy_date|date|是|NULL

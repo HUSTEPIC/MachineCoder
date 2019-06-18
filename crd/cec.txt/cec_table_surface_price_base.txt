@@ -1,0 +1,13 @@
+== 表的结构 surface_price_base
+
+|------
+|字段|类型|空|默认
+|------
+|//**s_id**//|int(6)|否|
+|customer_no|varchar(5)|是|NULL
+|surface_art|tinyint(2)|是|NULL
+|price_b|decimal(13,8)|是|NULL
+|jj_money|decimal(9,4)|是|NULL
+|surface_art_price|decimal(9,4)|是|NULL
+|price|decimal(9,4)|否|0.0000
+|money_type|tinyint(1)|否|

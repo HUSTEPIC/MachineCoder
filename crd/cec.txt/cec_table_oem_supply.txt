@@ -1,0 +1,10 @@
+== 表的结构 oem_supply
+
+|------
+|字段|类型|空|默认
+|------
+|//**o_id**//|int(10)|否|
+|supply_id|int(10)|是|NULL
+|oem_sub_no|varchar(10)|是|NULL
+|oem_sub_name|varchar(30)|是|NULL
+|oem_project|varchar(20)|是|NULL

@@ -1,0 +1,13 @@
+== 表的结构 vcut
+
+|------
+|字段|类型|空|默认
+|------
+|//**vcut_id**//|int(7)|否|
+|pid|int(7)|否|
+|cid|int(7)|是|NULL
+|vcut_a|varchar(35)|是|NULL
+|vcut_b|varchar(35)|是|NULL
+|vcut_c|varchar(35)|是|NULL
+|number_knives|int(2)|是|NULL
+|vcut_remark|varchar(255)|是|NULL

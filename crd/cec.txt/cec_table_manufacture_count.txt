@@ -1,0 +1,25 @@
+== 表的结构 manufacture_count
+
+|------
+|字段|类型|空|默认
+|------
+|//**count_id**//|int(10)|否|
+|work_list_cid|int(10)|是|NULL
+|contract_no|varchar(20)|是|NULL
+|qr_code|varchar(25)|是|NULL
+|art_code|varchar(10)|是|NULL
+|art_name|varchar(35)|是|NULL
+|display_order|int(4)|是|NULL
+|bool|int(1)|是|NULL
+|qc_bool|int(1)|是|NULL
+|check_out|int(10)|是|NULL
+|_who|varchar(20)|是|NULL
+|_who_time|datetime|是|NULL
+|wx_count|int(2)|否|0
+|fg_count|int(2)|否|0
+|allow|int(10)|是|NULL
+|batch_number|varchar(5)|是|NULL
+|defect_name|varchar(40)|是|NULL
+|remark|varchar(100)|是|NULL
+|pre_stonum|char(1)|是|NULL
+|cp_print|int(10)|是|NULL

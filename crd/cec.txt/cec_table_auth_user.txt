@@ -1,0 +1,16 @@
+== 表的结构 auth_user
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(11)|否|
+|password|varchar(128)|否|
+|last_login|datetime(6)|是|NULL
+|is_superuser|tinyint(1)|否|
+|**username**|varchar(150)|否|
+|first_name|varchar(30)|否|
+|last_name|varchar(150)|否|
+|email|varchar(254)|否|
+|is_staff|tinyint(1)|否|
+|is_active|tinyint(1)|否|
+|date_joined|datetime(6)|否|

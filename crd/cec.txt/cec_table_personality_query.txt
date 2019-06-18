@@ -1,0 +1,9 @@
+== 表的结构 personality_query
+
+|------
+|字段|类型|空|默认
+|------
+|//**p_q_id**//|int(11)|否|
+|userid|int(10)|否|
+|query_title|varchar(20)|否|
+|query_content|varchar(200)|否|

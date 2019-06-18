@@ -1,0 +1,51 @@
+== 表的结构 manufacture_bad
+
+|------
+|字段|类型|空|默认
+|------
+|//**mid**//|int(9)|否|
+|pid|int(10)|是|NULL
+|cid|int(9)|是|NULL
+|contract_no|varchar(35)|否|
+|recontract_no|varchar(21)|否|
+|file_pigeonhole|varchar(12)|是|NULL
+|batch|varchar(12)|否|
+|exterior_means|enum('R', 'N', 'C', 'V', 'L')|否|N
+|exterior_means2|enum('R', 'N', 'C', 'V', 'L')|是|NULL
+|ronghcast_long1|double(8,2)|是|NULL
+|ronghcast_width1|double(8,2)|是|NULL
+|ronghcast_number1|mediumint(9)|是|NULL
+|plane1|smallint(5)|是|NULL
+|ronghcast_long2|double(8,2)|是|NULL
+|ronghcast_width2|double(8,2)|是|NULL
+|ronghcast_number2|mediumint(9)|是|NULL
+|plane2|smallint(5)|是|NULL
+|ronghcast_long3|double(8,2)|是|NULL
+|ronghcast_width3|double(8,2)|是|NULL
+|ronghcast_number3|mediumint(9)|是|NULL
+|plane3|smallint(5)|是|NULL
+|ronghcast_long4|double(8,2)|是|NULL
+|ronghcast_width4|double(8,2)|是|NULL
+|ronghcast_number4|mediumint(9)|是|NULL
+|plane4|smallint(5)|是|NULL
+|graph_area|double(9,4)|是|NULL
+|graph_art|enum('A', 'B', 'C')|是|NULL
+|e_test_type|enum('H', 'L', 'F')|是|NULL
+|test_vot|varchar(4)|是|NULL
+|pack|enum('0', '1')|是|NULL
+|rout|varchar(5)|是|NULL
+|d_hole|varchar(5)|是|NULL
+|spec|text|是|NULL
+|replenish|varchar(20)|否|0
+|finish_num|mediumint(9)|是|NULL
+|finish_date|date|否|0000-00-00
+|remark|text|是|NULL
+|checker|varchar(12)|是|NULL
+|manufer|varchar(12)|是|NULL
+|test_no|varchar(4)|是|NULL
+|checktime|datetime|否|0000-00-00 00:00:00
+|manuftime|datetime|是|NULL
+|simple_mark|enum('0', '1')|否|0
+|set_number|int(9)|是|NULL
+|ver_no|varchar(3)|否|A0
+|enter_manufacture|datetime|否|0000-00-00 00:00:00

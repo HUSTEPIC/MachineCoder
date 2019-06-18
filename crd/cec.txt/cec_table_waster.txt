@@ -1,0 +1,14 @@
+== 表的结构 waster
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(7)|否|
+|contract_no|varchar(35)|否|
+|number|int(5)|是|NULL
+|waster_date|date|是|NULL
+|find_station|varchar(8)|是|NULL
+|finder|varchar(8)|是|NULL
+|duty_station|varchar(8)|是|NULL
+|dutyer|varchar(8)|是|NULL
+|waster_whys|varchar(20)|是|NULL

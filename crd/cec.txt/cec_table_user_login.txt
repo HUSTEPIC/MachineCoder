@@ -1,0 +1,10 @@
+== 表的结构 user_login
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(10)|否|
+|userid|int(10)|否|
+|login_mac|varchar(17)|否|
+|login_ip|varchar(50)|否|
+|login_time|datetime|是|NULL

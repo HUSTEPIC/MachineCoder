@@ -1,0 +1,9 @@
+== 表的结构 confirm
+
+|------
+|字段|类型|空|默认
+|------
+|//**con_id**//|int(11)|否|
+|customer_no|varchar(5)|是|NULL
+|confirm_money|double(9,2)|是|NULL
+|confirm_date|date|是|NULL

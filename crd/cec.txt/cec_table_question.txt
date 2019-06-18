@@ -1,0 +1,11 @@
+== 表的结构 question
+
+|------
+|字段|类型|空|默认
+|------
+|//**qu_id**//|int(7)|否|
+|qu_title|varchar(100)|是|NULL
+|qu_type|tinyint(2)|是|NULL
+|qu_content|text|是|NULL
+|qu_er|varchar(12)|是|NULL
+|qu_time|datetime|是|NULL

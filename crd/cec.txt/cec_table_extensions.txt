@@ -1,0 +1,9 @@
+== 表的结构 extensions
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(11)|否|
+|extension|varchar(30)|是|NULL
+|usertype|varchar(30)|是|NULL
+|userid|int(10)|是|NULL

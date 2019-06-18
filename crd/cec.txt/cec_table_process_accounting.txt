@@ -1,0 +1,11 @@
+== 表的结构 process_accounting
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(5)|否|
+|pro_type|enum('0', '1', '2')|否|1
+|smiple_mark|enum('0', '1', '2', '3')|是|NULL
+|layer_num|varchar(20)|是|NULL
+|art_name|varchar(50)|是|NULL
+|account_value|decimal(10,4)|是|NULL

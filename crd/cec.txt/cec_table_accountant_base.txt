@@ -1,0 +1,9 @@
+== 表的结构 accountant_base
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(3)|否|
+|bank|varchar(2)|是|NULL
+|money|double(14,4)|是|NULL
+|base_date|date|是|NULL

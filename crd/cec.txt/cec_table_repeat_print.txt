@@ -1,0 +1,11 @@
+== 表的结构 repeat_print
+
+|------
+|字段|类型|空|默认
+|------
+|//**rpid**//|int(6)|否|
+|sale_no|int(6)|否|
+|print_user|varchar(20)|否|
+|print_time|datetime|否|
+|print_ip|varchar(20)|否|
+|print_mac|varchar(20)|否|

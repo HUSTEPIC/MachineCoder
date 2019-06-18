@@ -1,0 +1,11 @@
+== 表的结构 product_type
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(11)|否|
+|manufacture_type|varchar(4)|是|NULL
+|simple_mark|varchar(5)|是|NULL
+|产品类别|enum('1', '2', '3')|否|1
+|manu_lay_num|tinyint(4)|是|NULL
+|target_value|decimal(5,2)|是|NULL

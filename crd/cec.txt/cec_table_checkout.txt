@@ -1,0 +1,10 @@
+== 表的结构 checkout
+
+|------
+|字段|类型|空|默认
+|------
+|//**cid**//|int(5)|否|
+|service_sid|int(5)|是|NULL
+|checkout_personnel|varchar(15)|是|NULL
+|checkout_date|date|是|NULL
+|checkout_remark|text|是|NULL

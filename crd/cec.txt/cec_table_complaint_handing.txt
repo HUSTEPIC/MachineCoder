@@ -1,0 +1,13 @@
+== 表的结构 complaint_handing
+
+|------
+|字段|类型|空|默认
+|------
+|//**ch_id**//|int(4)|否|
+|product_no|varchar(20)|是|NULL
+|recontract_no|varchar(20)|是|NULL
+|contract_no|varchar(20)|是|NULL
+|problem_description|text|是|NULL
+|operator|varchar(20)|是|NULL
+|operation_time|date|是|NULL
+|service|text|是|NULL

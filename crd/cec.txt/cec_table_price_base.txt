@@ -1,0 +1,17 @@
+== 表的结构 price_base
+
+|------
+|字段|类型|空|默认
+|------
+|//**pr_id**//|int(6)|否|
+|customer_no|varchar(5)|是|NULL
+|layer_num|tinyint(2)|是|NULL
+|price_b|double(13,8)|是|NULL
+|project_b|double(9,4)|是|NULL
+|plott_b|double(9,4)|是|NULL
+|plott_p|double(9,4)|否|0.0000
+|wb_b|double(9,4)|是|NULL
+|kg_b|double(9,4)|是|NULL
+|taffic_b|double(9,4)|是|NULL
+|color_outlay|decimal(9,4)|是|NULL
+|money_type|tinyint(1)|否|

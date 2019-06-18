@@ -1,0 +1,13 @@
+== 表的结构 price_fix
+
+|------
+|字段|类型|空|默认
+|------
+|//**pf_id**//|int(8)|否|
+|pr_id|int(6)|是|NULL
+|project|varchar(20)|是|NULL
+|project_val|varchar(60)|是|NULL
+|min_area|decimal(8,3)|否|0.000
+|max_area|decimal(8,3)|否|10000.000
+|formula|varchar(80)|是|NULL
+|web_layer_num|varchar(5)|是|NULL

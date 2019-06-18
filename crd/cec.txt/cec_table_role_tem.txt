@@ -1,0 +1,9 @@
+== 表的结构 role_tem
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(10)|否|
+|user_id|int(10)|否|
+|role_name|varchar(255)|是|NULL
+|role_access|text|是|NULL

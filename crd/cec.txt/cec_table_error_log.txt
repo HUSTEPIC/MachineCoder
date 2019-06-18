@@ -1,0 +1,11 @@
+== 表的结构 error_log
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(8)|否|
+|table_name|varchar(31)|是|NULL
+|contract_no|varchar(35)|否|
+|action|varchar(6)|是|NULL
+|user|varchar(10)|是|NULL
+|action_time|datetime|是|NULL

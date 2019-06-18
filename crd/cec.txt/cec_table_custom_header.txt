@@ -1,0 +1,12 @@
+== 表的结构 custom_header
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(12)|否|
+|field|varchar(50)|是|NULL
+|content|varchar(200)|是|NULL
+|username|varchar(50)|是|NULL
+|update_time|datetime|是|NULL
+|sort_order|int(30)|是|NULL
+|page_type|varchar(150)|是|NULL

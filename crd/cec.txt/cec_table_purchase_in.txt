@@ -1,0 +1,11 @@
+== 表的结构 purchase_in
+
+|------
+|字段|类型|空|默认
+|------
+|//**purchase_inid**//|int(3)|否|
+|pu_id|int(3)|是|NULL
+|in_num|double(8,2)|是|NULL
+|check_person|varchar(25)|是|NULL
+|check_date|date|是|NULL
+|in_code|varchar(50)|是|NULL

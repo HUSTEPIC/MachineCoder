@@ -1,0 +1,19 @@
+== 表的结构 hdi_mutlayer_tmp
+
+|------
+|字段|类型|空|默认
+|------
+|//**hdi_id**//|int(10)|否|
+|pid|int(10)|是|NULL
+|template_name|varchar(100)|是|NULL
+|layer_type|varchar(6)|是|NULL
+|layer_no|smallint(2)|是|NULL
+|inter_layer|enum('1', '2', '3')|是|NULL
+|blind_hole|enum('0', '1')|是|NULL
+|buried_hole|enum('0', '1')|是|NULL
+|through_hole|enum('0', '1')|是|NULL
+|stage|smallint(2)|是|NULL
+|press_times|smallint(2)|是|NULL
+|thick_tole|varchar(8)|是|NULL
+|press_thick|double(7,3)|是|NULL
+|layer_explain|varchar(50)|是|NULL

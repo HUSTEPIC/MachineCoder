@@ -1,0 +1,14 @@
+== 表的结构 hdi_template
+
+|------
+|字段|类型|空|默认
+|------
+|//**hdi_id**//|int(10)|否|
+|hdi_mut_id|int(10)|否|
+|pid|int(10)|是|NULL
+|inter_layer|varchar(10)|是|NULL
+|layer_no|varchar(10)|是|NULL
+|ctype|varchar(255)|是|NULL
+|cuser|varchar(255)|是|NULL
+|ctime|datetime|是|NULL
+|edit_dele|enum('1', '2')|否|

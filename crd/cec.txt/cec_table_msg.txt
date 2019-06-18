@@ -1,0 +1,17 @@
+== 表的结构 msg
+
+|------
+|字段|类型|空|默认
+|------
+|//**msgid**//|int(10)|否|
+|msgtitle|varchar(150)|否|
+|msgcontent|text|否|
+|sendtime|datetime|否|
+|deletetime|datetime|否|
+|msgread|int(1)|否|0
+|box_category|varchar(250)|是|NULL
+|msgfromid|varchar(25)|否|
+|msgtoid|varchar(25)|否|
+|delstatus|tinyint(1)|否|0
+|s_delstatus|tinyint(1)|是|0
+|f_delstatus|tinyint(1)|是|0

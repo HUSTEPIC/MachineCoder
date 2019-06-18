@@ -1,0 +1,23 @@
+== 表的结构 mech_mi
+
+|------
+|字段|类型|空|默认
+|------
+|//**me_mi_id**//|int(12)|否|
+|ma_id|int(9)|是|NULL
+|me_art_no|varchar(4)|是|NULL
+|me_art_name|varchar(22)|是|NULL
+|me_art_remuneration|double(5,2)|是|NULL
+|me_disp_order|char(4)|是|NULL
+|me_mi_default|text|是|NULL
+|me_mi|text|是|NULL
+|count_num|int(6)|否|0
+|count_time|datetime|否|0000-00-00 00:00:00
+|count_er|varchar(100)|是|NULL
+|dispatching|tinyint(1)|否|0
+|F_S|char(1)|否|F
+|mi_product_type|char(1)|否|1
+|surface_check_hg|int(1)|是|NULL
+|surface_check_cc|int(1)|是|NULL
+|surface_check_bf|int(1)|是|NULL
+|count_bs|char(2)|是|NULL

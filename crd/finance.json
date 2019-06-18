@@ -1,0 +1,36 @@
+{
+    "QUERY":{
+        "HEAD":["sale.customer_no",
+        "customer_credit.customer_name",
+        "sale.sale_no",
+        "sale_sub.contract_no",
+        "sale.sale_money",
+        "sale_sub.discount",
+        "sale_sub.sale_number",
+        "sale_sub.sale_date",
+        "sale_sub.check_account_code",
+        "sale_sub.invoice_no",
+        "sale_sub.invoice_date"
+        ],
+        "FROM":[
+            "sale",
+            "sale_sub.sale_no",
+            "customer_credit.customer_no"
+        ],
+        "CONDITION":[
+            "sale_sub.invoice",
+            "sale_sub.is_dzd",
+            "sale.customer_no",
+            "sale.sale_no",
+            "sale_sub.contract_no",
+            "sale_sub.sale_date",
+            "sale_sub.check_account_code",
+            "sale_sub.invoice_no",
+            "sale_sub.invoice_date"
+        ],
+        "ORDER":[
+            "DESC",
+            "sale.sale_date"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+== 表的结构 department_warehouse
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(4)|否|
+|material_no|varchar(15)|是|NULL
+|material_name|varchar(10)|是|NULL
+|material_num|int(4)|是|NULL

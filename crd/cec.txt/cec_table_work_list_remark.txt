@@ -1,0 +1,10 @@
+== 表的结构 work_list_remark
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(3)|否|
+|userid|int(3)|是|NULL
+|work_list_cid|int(10)|是|NULL
+|remark|text|是|NULL
+|remark_time|date|是|NULL

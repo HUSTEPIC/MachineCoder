@@ -1,0 +1,18 @@
+== 表的结构 tech_capacity
+
+|------
+|字段|类型|空|默认
+|------
+|//**tech_id**//|tinyint(1)|否|
+|max_layer|tinyint(2)|是|NULL
+|max_long|smallint(4)|是|NULL
+|max_width|smallint(4)|是|NULL
+|max_thick|double(3,1)|是|NULL
+|min_thick|double(3,2)|是|NULL
+|min_line|double(4,3)|是|NULL
+|min_space|double(4,3)|是|NULL
+|min_hole|double(3,2)|是|NULL
+|thick_hole|double(3,1)|是|NULL
+|min_solder|double(4,3)|是|NULL
+|min_smt|double(4,3)|是|NULL
+|ict|tinyint(1)|否|0

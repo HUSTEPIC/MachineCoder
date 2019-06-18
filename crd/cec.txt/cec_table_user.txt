@@ -1,0 +1,25 @@
+== 表的结构 user
+
+|------
+|字段|类型|空|默认
+|------
+|//**userid**//|int(10)|否|
+|loginid|varchar(100)|是|NULL
+|password|varchar(32)|是|NULL
+|username|varchar(100)|是|NULL
+|mobile|varchar(11)|否|
+|is_one_login|int(1)|否|0
+|station_num|smallint(2)|是|NULL
+|deptid|varchar(100)|否|
+|role|int(4)|是|0
+|grade|varchar(5)|是|2
+|layer_num|int(4)|否|1
+|art_char|text|是|NULL
+|pristr|text|是|NULL
+|is_login|char(1)|是|NULL
+|time_login|int(10)|是|NULL
+|time_current|int(10)|是|NULL
+|extension|varchar(10)|是|NULL
+|role_tem|varchar(255)|是|NULL
+|channelid|varchar(30)|是|NULL
+|retransmission_time|smallint(3)|是|NULL

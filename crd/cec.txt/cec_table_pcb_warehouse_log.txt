@@ -1,0 +1,11 @@
+== 表的结构 pcb_warehouse_log
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(4)|否|
+|pid|int(9)|是|NULL
+|ctime|datetime|是|0000-00-00 00:00:00
+|ctype|varchar(15)|是|NULL
+|log_str|mediumtext|是|NULL
+|cuser|varchar(18)|是|NULL

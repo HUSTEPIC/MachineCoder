@@ -1,0 +1,10 @@
+== 表的结构 oem_price_base
+
+|------
+|字段|类型|空|默认
+|------
+|//**pr_id**//|int(6)|否|
+|subject_no|varchar(30)|是|NULL
+|layer_num|varchar(20)|是|NULL
+|price_b|varchar(20)|是|NULL
+|start_price|varchar(20)|是|NULL

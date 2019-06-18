@@ -1,0 +1,19 @@
+== 表的结构 equipment_base
+
+|------
+|字段|类型|空|默认
+|------
+|//**equipment_id**//|int(6)|否|
+|equipment_no|varchar(12)|否|
+|equipment_name|varchar(20)|是|NULL
+|spec|varchar(40)|是|NULL
+|buy_date|date|是|NULL
+|start_price|double(10,2)|是|NULL
+|equipment_cs|varchar(35)|是|NULL
+|equipment_person|varchar(25)|是|NULL
+|equipment_tel|varchar(15)|是|NULL
+|equipment_fa|varchar(25)|是|NULL
+|equipment_zrr|varchar(25)|是|NULL
+|fixed_id|int(10)|否|
+|equipment_status|varchar(100)|否|
+|smt_id|int(10)|否|

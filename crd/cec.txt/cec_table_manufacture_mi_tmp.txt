@@ -1,0 +1,17 @@
+== 表的结构 manufacture_mi_tmp
+
+|------
+|字段|类型|空|默认
+|------
+|//**mi_tmp_id**//|int(12)|否|
+|tmp_name|varchar(60)|是|NULL
+|art_no|varchar(4)|是|NULL
+|art_name|varchar(22)|是|NULL
+|display_order|smallint(3)|是|NULL
+|plane_display_order_first|tinyint(1)|否|0
+|is_online_count|tinyint(1)|否|0
+|mi_default|text|是|NULL
+|mi|text|是|NULL
+|mi_customer|text|是|NULL
+|log_time_user|varchar(50)|是|NULL
+|press_times|smallint(2)|是|NULL

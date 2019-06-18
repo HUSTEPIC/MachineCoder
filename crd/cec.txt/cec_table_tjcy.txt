@@ -1,0 +1,9 @@
+== 表的结构 tjcy
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(4)|否|
+|u1|varchar(6)|是|NULL
+|u2|varchar(6)|是|NULL
+|deptid|varchar(100)|是|NULL

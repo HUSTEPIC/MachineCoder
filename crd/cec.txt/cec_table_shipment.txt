@@ -1,0 +1,9 @@
+== 表的结构 shipment
+
+|------
+|字段|类型|空|默认
+|------
+|//**shid**//|int(6)|否|
+|check_cid|int(6)|是|NULL
+|shipment_date|date|是|NULL
+|shipment_personnel|varchar(15)|是|NULL

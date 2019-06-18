@@ -1,0 +1,19 @@
+== 表的结构 encasement
+
+|------
+|字段|类型|空|默认
+|------
+|//**encase_id**//|int(4)|否|
+|deli_no|int(7)|是|NULL
+|box_no|varchar(20)|是|NULL
+|contract_no|varchar(20)|是|NULL
+|recontract_no|varchar(20)|是|NULL
+|model|varchar(20)|是|NULL
+|f_name|varchar(40)|是|NULL
+|box_num|varchar(10)|是|NULL
+|boxdate|date|是|NULL
+|boxer|varchar(10)|是|NULL
+|encase_total|varchar(20)|是|NULL
+|encase_remark|int(4)|否|0
+|cust_no|int(4)|是|NULL
+|total_num|varchar(20)|是|NULL

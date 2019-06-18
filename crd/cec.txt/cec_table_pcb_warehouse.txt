@@ -1,0 +1,16 @@
+== 表的结构 pcb_warehouse
+
+|------
+|字段|类型|空|默认
+|------
+|//**pcb_id**//|int(9)|否|
+|pid|int(9)|是|NULL
+|cid|int(9)|是|NULL
+|start_num|int(10)|是|NULL
+|start_date|date|是|NULL
+|total_num|int(10)|是|NULL
+|kl_cc|int(10)|否|0
+|warehouse_no|varchar(16)|是|NULL
+|area_no|varchar(16)|是|NULL
+|layer_no|varchar(16)|是|NULL
+|ark_no|varchar(16)|是|NULL

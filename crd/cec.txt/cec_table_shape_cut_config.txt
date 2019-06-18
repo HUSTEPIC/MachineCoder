@@ -1,0 +1,16 @@
+== 表的结构 shape_cut_config
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(4)|否|
+|**config_name**|varchar(50)|否|
+|pnl1_long_min|decimal(10,2)|是|NULL
+|pnl1_long_max|decimal(10,2)|是|NULL
+|pnl1_width_min|decimal(10,2)|是|NULL
+|pnl1_width_max|decimal(10,2)|是|NULL
+|set_long_space|decimal(10,2)|是|NULL
+|set_width_space|decimal(10,2)|是|NULL
+|pnl_border_long|decimal(10,2)|是|NULL
+|pnl_border_width|decimal(10,2)|是|NULL
+|unit|enum('mm', 'Inch')|是|mm

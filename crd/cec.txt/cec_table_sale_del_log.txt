@@ -1,0 +1,11 @@
+== 表的结构 sale_del_log
+
+|------
+|字段|类型|空|默认
+|------
+|//**sale_del_id**//|int(11)|否|
+|log_strs|text|是|NULL
+|sale_no|varchar(12)|否|
+|sale_date|date|是|NULL
+|del_time|varchar(40)|是|NULL
+|del_user|varchar(25)|是|NULL

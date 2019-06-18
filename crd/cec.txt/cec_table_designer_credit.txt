@@ -1,0 +1,25 @@
+== 表的结构 designer_credit
+
+|------
+|字段|类型|空|默认
+|------
+|//**deid**//|int(9)|否|
+|cucid|int(9)|否|
+|customer_no|varchar(5)|否|
+|designer|varchar(12)|否|
+|income_sum|double(14,4)|是|NULL
+|income_date|date|是|NULL
+|billing_unpaid|double(15,4)|是|NULL
+|come_out|double(5,2)|是|NULL
+|total_all|double(14,4)|是|NULL
+|is_invo|tinyint(1)|否|0
+|over_rece|double(14,4)|是|NULL
+|tota0|double(14,4)|是|NULL
+|tota30|double(14,4)|是|NULL
+|tota60|double(14,4)|是|NULL
+|tota90|double(14,4)|是|NULL
+|tota120|double(14,4)|是|NULL
+|money_ok|double(14,4)|是|NULL
+|come_end|date|是|NULL
+|sale_end|date|是|NULL
+|analyse_date|date|是|NULL

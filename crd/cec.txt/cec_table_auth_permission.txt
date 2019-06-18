@@ -1,0 +1,9 @@
+== 表的结构 auth_permission
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(11)|否|
+|name|varchar(255)|否|
+|**content_type_id**|int(11)|否|
+|**codename**|varchar(100)|否|

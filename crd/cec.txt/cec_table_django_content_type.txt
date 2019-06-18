@@ -1,0 +1,8 @@
+== 表的结构 django_content_type
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(11)|否|
+|**app_label**|varchar(100)|否|
+|**model**|varchar(100)|否|

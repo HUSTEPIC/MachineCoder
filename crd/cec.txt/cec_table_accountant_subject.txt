@@ -1,0 +1,8 @@
+== 表的结构 accountant_subject
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(4)|否|
+|**subject_no**|varchar(10)|是|NULL
+|subject_name|varchar(40)|是|NULL

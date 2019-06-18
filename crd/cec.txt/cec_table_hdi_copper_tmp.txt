@@ -1,0 +1,10 @@
+== 表的结构 hdi_copper_tmp
+
+|------
+|字段|类型|空|默认
+|------
+|//**copp_id**//|int(10)|否|
+|hdi_id|int(10)|是|NULL
+|copp_thick_iden|varchar(8)|是|NULL
+|copp_thick|double(6,5)|是|NULL
+|layer_type|varchar(6)|是|NULL

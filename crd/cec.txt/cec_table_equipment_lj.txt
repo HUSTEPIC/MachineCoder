@@ -1,0 +1,10 @@
+== 表的结构 equipment_lj
+
+|------
+|字段|类型|空|默认
+|------
+|//**lj_id**//|int(3)|否|
+|equipment_name|varchar(40)|是|NULL
+|lj_spec|varchar(40)|是|NULL
+|subject_no|varchar(10)|是|NULL
+|lj_price|decimal(8,4)|是|NULL

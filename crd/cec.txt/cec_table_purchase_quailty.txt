@@ -1,0 +1,13 @@
+== 表的结构 purchase_quailty
+
+|------
+|字段|类型|空|默认
+|------
+|//**unid**//|int(3)|否|
+|pu_id|int(3)|是|NULL
+|unqualified_num|double(8,2)|是|NULL
+|qualified_num|double(8,2)|是|NULL
+|unqualified_reason|varchar(255)|是|NULL
+|chuli|varchar(35)|是|NULL
+|check_person|varchar(25)|是|NULL
+|check_date|date|是|NULL

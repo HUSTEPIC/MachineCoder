@@ -1,0 +1,13 @@
+== 表的结构 mi_art
+
+|------
+|字段|类型|空|默认
+|------
+|//**mi_art_id**//|int(1)|否|
+|art_id|int(1)|否|
+|art_no|varchar(4)|是|NULL
+|mi|text|是|NULL
+|mi_type|char(2)|是|NULL
+|mode_order|char(4)|是|NULL
+|mark|char(1)|是|NULL
+|gz|varchar(50)|是|NULL

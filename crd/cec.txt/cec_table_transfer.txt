@@ -1,0 +1,10 @@
+== 表的结构 transfer
+
+|------
+|字段|类型|空|默认
+|------
+|//**tran_id**//|int(9)|否|
+|employee_id|int(6)|是|NULL
+|current_position|varchar(12)|是|NULL
+|job_status|enum('0', '1')|否|1
+|transfer_date|date|是|NULL

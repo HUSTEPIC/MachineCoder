@@ -1,0 +1,38 @@
+== 表的结构 film_type
+
+|------
+|字段|类型|空|默认
+|------
+|//**fid**//|int(12)|否|
+|cid|int(9)|是|NULL
+|film_oem|int(1)|否|0
+|film_receive|char(1)|否|0
+|contract_no|varchar(35)|否|
+|subject_no|varchar(20)|是|NULL
+|top_overlay_film|enum('+', '-', 'm+', 'm-')|是|NULL
+|bottom_overlay_film|enum('+', '-', 'm+', 'm-')|是|NULL
+|top_solder_film|enum('+', '-', 'm+', 'm-')|是|NULL
+|bottom_solder_film|enum('+', '-', 'm+', 'm-')|是|NULL
+|top_layer_film|enum('+', '-', 'm+', 'm-')|是|NULL
+|bottom_layer_film|enum('+', '-', 'm+', 'm-')|是|NULL
+|draw_engineer|varchar(25)|是|NULL
+|draw_time|datetime|是|NULL
+|is_draw|tinyint(1)|否|0
+|draw_remark|text|是|NULL
+|draw_checker|varchar(20)|是|NULL
+|draw_ck_time|datetime|否|
+|draw_plan_date|date|是|NULL
+|inn2film|enum('+', '-', 'm+', 'm-')|是|NULL
+|inn3film|enum('+', '-', 'm+', 'm-')|是|NULL
+|inn4film|enum('+', '-', 'm+', 'm-')|是|NULL
+|inn5film|enum('+', '-', 'm+', 'm-')|是|NULL
+|inn6film|enum('+', '-', 'm+', 'm-')|是|NULL
+|inn7film|enum('+', '-', 'm+', 'm-')|是|NULL
+|inn8film|enum('+', '-', 'm+', 'm-')|是|NULL
+|inn9film|enum('+', '-', 'm+', 'm-')|是|NULL
+|inn10film|enum('+', '-', 'm+', 'm-')|是|NULL
+|inn11film|enum('+', '-', 'm+', 'm-')|是|NULL
+|inn12film|enum('+', '-', 'm+', 'm-')|是|NULL
+|inn13film|enum('+', '-', 'm+', 'm-')|是|NULL
+|inn14film|enum('+', '-', 'm+', 'm-')|是|NULL
+|inn15film|enum('+', '-', 'm+', 'm-')|是|NULL

@@ -1,0 +1,14 @@
+== 表的结构 article
+
+|------
+|字段|类型|空|默认
+|------
+|//**article_id**//|int(10)|否|
+|article_title|varchar(100)|否|
+|writer|varchar(20)|是|NULL
+|source|varchar(100)|是|NULL
+|content|mediumtext|否|
+|views|int(10)|否|0
+|up_date|date|是|NULL
+|sort|varchar(40)|是|NULL
+|isred|varchar(255)|是|NULL

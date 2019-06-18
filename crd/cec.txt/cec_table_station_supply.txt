@@ -1,0 +1,11 @@
+== 表的结构 station_supply
+
+|------
+|字段|类型|空|默认
+|------
+|//**spid**//|int(4)|否|
+|supply_no|varchar(20)|是|NULL
+|model|varchar(20)|是|NULL
+|num|varchar(20)|是|NULL
+|station_no|varchar(20)|是|NULL
+|tool_name|varchar(20)|是|NULL

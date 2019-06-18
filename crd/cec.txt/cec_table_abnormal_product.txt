@@ -1,0 +1,34 @@
+== 表的结构 abnormal_product
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(10)|否|
+|pid|int(10)|是|NULL
+|lot_id|int(10)|是|NULL
+|mid|int(10)|是|NULL
+|put_depart|varchar(200)|是|NULL
+|put_user|varchar(200)|是|NULL
+|put_time|datetime|是|NULL
+|abnormal_reason|text|是|NULL
+|other_reason|text|是|NULL
+|solve_depart|varchar(200)|是|NULL
+|abnormal_descr|text|是|NULL
+|lot_card_no|varchar(200)|是|NULL
+|aff_plant_weav|int(11)|是|NULL
+|abnormal_no|varchar(14)|是|NULL
+|mumber_film|varchar(4)|是|NULL
+|film_type|varchar(4)|是|NULL
+|abnormal_level|varchar(2)|是|NULL
+|exce_types|enum('1', '2', '', '')|是|NULL
+|dealing_user|varchar(255)|是|NULL
+|solve_comp_time|datetime|是|NULL
+|receive_abnor_time|datetime|是|NULL
+|is_receive_abnor|enum('0', '1', '', '')|是|NULL
+|is_sovler|enum('0', '1', '', '')|是|NULL
+|settle_depar|varchar(200)|是|NULL
+|settle_user|varchar(200)|是|NULL
+|settle_time|datetime|是|NULL
+|final_effect|varchar(200)|是|NULL
+|preven_num|varchar(200)|是|NULL
+|not_solve|text|是|NULL

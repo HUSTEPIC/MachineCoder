@@ -1,0 +1,28 @@
+== 表的结构 come_money
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(8)|否|
+|come_no|varchar(12)|否|
+|customer_no|varchar(5)|否|
+|contract_no|varchar(35)|是|NULL
+|come_money|double(14,4)|是|NULL
+|excha_rate|decimal(10,8)|否|
+|come_moneyer|varchar(12)|是|NULL
+|bank|varchar(2)|是|NULL
+|come_date|date|是|NULL
+|service_admin|varchar(12)|是|NULL
+|out_money|double(14,4)|是|NULL
+|out_mark|varchar(60)|是|NULL
+|document_number|varchar(40)|是|NULL
+|subject_no|varchar(10)|是|NULL
+|out_way|enum('A', 'B', 'C', 'D', 'E', 'F')|是|NULL
+|out_er|varchar(8)|是|NULL
+|out_date|date|是|NULL
+|repay_date|int(4)|是|NULL
+|remark|varchar(255)|否|
+|bill_num|varchar(20)|是|NULL
+|issue_date|date|否|
+|exp_date|date|否|
+|charge_against|char(3)|是|NULL

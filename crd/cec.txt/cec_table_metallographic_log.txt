@@ -1,0 +1,11 @@
+== 表的结构 metallographic_log
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(4)|否|
+|ta_id|int(7)|是|NULL
+|ctime|datetime|是|NULL
+|ctype|varchar(15)|是|NULL
+|log_str|mediumtext|是|NULL
+|cuser|varchar(18)|是|NULL

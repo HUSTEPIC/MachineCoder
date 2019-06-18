@@ -1,0 +1,12 @@
+== 表的结构 reel
+
+|------
+|字段|类型|空|默认
+|------
+|//**rid**//|int(9)|否|
+|cid|int(10)|否|
+|reel_no|int(5)|是|NULL
+|reel|varchar(12)|是|NULL
+|pdate|date|否|
+|puser|varchar(12)|否|
+|pnum|int(10)|是|NULL

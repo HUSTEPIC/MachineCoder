@@ -1,0 +1,9 @@
+== 表的结构 mech_remun
+
+|------
+|字段|类型|空|默认
+|------
+|//**me_re_id**//|int(7)|否|
+|re_name|varchar(12)|是|NULL
+|re_date|date|否|0000-00-00
+|remun|double(6,2)|是|NULL

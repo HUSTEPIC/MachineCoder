@@ -1,0 +1,48 @@
+== 表的结构 purchase
+
+|------
+|字段|类型|空|默认
+|------
+|//**pu_id**//|int(8)|否|
+|ba_id|int(7)|是|NULL
+|purchase_number|varchar(25)|是|NULL
+|come_bank|varchar(10)|是|NULL
+|p_subject_no|varchar(14)|是|NULL
+|price|decimal(14,8)|是|NULL
+|tax|decimal(14,8)|是|NULL
+|pu_num|double(8,2)|是|NULL
+|pu_dept|varchar(14)|是|NULL
+|pu_er|varchar(12)|是|NULL
+|pu_date|datetime|否|0000-00-00 00:00:00
+|ok_date|datetime|否|0000-00-00 00:00:00
+|ok_er|varchar(12)|是|NULL
+|ok_num|double(8,2)|是|NULL
+|re_date|date|是|NULL
+|is_date|datetime|否|0000-00-00 00:00:00
+|pu_remark|text|是|NULL
+|ys_per|varchar(20)|是|NULL
+|ys_date|datetime|否|0000-00-00 00:00:00
+|ys_result|char(10)|是|NULL
+|is_inv|char(10)|是|NULL
+|inv_no|varchar(20)|是|NULL
+|hg_num|bigint(20)|是|NULL
+|in_num|bigint(20)|否|0
+|chuli|char(10)|否|
+|change_price|decimal(10,0)|是|0
+|received_num|double(6,2)|是|NULL
+|qualified_total_num|double(8,2)|是|NULL
+|unqualified_num|double(8,2)|是|NULL
+|unqualified_reason|varchar(300)|是|NULL
+|is_qualified|char(10)|是|NULL
+|shelflife|date|是|NULL
+|in_total_num|double(8,2)|是|NULL
+|purchase_code|varchar(25)|是|NULL
+|apply_person|varchar(30)|是|NULL
+|apply_date|date|是|NULL
+|purchase_person|varchar(30)|是|NULL
+|purchase_man|varchar(35)|是|NULL
+|purchase_man_date|datetime|否|0000-00-00 00:00:00
+|purchase_date|datetime|否|0000-00-00 00:00:00
+|receive|datetime|否|0000-00-00 00:00:00
+|unqualified_total_num|double(8,2)|是|NULL
+|is_print_pur|enum('0', '1')|否|0

@@ -1,0 +1,9 @@
+== 表的结构 payroll
+
+|------
+|字段|类型|空|默认
+|------
+|//**pay_id**//|int(11)|否|
+|employee_id|int(6)|是|NULL
+|pay_date|date|否|
+|month_salary|double(7,2)|否|

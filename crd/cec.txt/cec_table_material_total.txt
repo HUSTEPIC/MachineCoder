@@ -1,0 +1,16 @@
+== 表的结构 material_total
+
+|------
+|字段|类型|空|默认
+|------
+|//**to_id**//|int(8)|否|
+|ba_id|int(8)|是|NULL
+|t_num|double(10,2)|是|NULL
+|t_money|decimal(16,8)|是|NULL
+|tin_num|double(10,2)|是|NULL
+|tin_money|decimal(16,8)|是|NULL
+|tout_num|double(10,2)|是|NULL
+|tout_money|decimal(16,8)|是|NULL
+|total_num|double(10,2)|是|NULL
+|total_price|decimal(16,8)|是|NULL
+|total_date|date|是|NULL

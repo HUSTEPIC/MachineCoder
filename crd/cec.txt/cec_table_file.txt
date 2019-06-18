@@ -1,0 +1,10 @@
+== 表的结构 file
+
+|------
+|字段|类型|空|默认
+|------
+|//**fileid**//|int(10)|否|
+|filename|varchar(100)|是|NULL
+|filepath|varchar(100)|是|NULL
+|msgid|int(10)|否|
+|mod|int(1)|否|

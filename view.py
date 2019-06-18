@@ -1,0 +1,2 @@
+def query_by(queryDict):
+    sql_base = '''SELECT sale.customer_no, customer_credit.customer_name, sale.sale_no, sale_sub.contract_no, slae.sale_money, sale_sub.discount, sale_sub.sale_number, sale_sub.sale_date, sale_sub.check_account_code, sale_sub.invoice_no, sale_sub.invoice_date FROM sale LEFT JOIN sale_sub ON sale.sale_no = sale_sub.sale_no LEFT JOIN customer_credit ON sale.customer_no = customer_credit.customer_no '''

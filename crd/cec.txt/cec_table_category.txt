@@ -1,0 +1,9 @@
+== 表的结构 category
+
+|------
+|字段|类型|空|默认
+|------
+|//**caid**//|int(6)|否|
+|box_category|varchar(255)|是|NULL
+|user_name|varchar(255)|是|NULL
+|box_s|int(11)|否|

@@ -1,0 +1,11 @@
+== 表的结构 hdi_hole_tmp
+
+|------
+|字段|类型|空|默认
+|------
+|//**hole_id**//|int(9)|否|
+|pid|int(10)|否|
+|hdi_id|int(8)|是|NULL
+|lase_hole_up|smallint(2)|是|NULL
+|lase_hole_down|smallint(2)|是|NULL
+|mech_hole|smallint(2)|是|NULL

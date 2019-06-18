@@ -1,0 +1,9 @@
+== 表的结构 pcb_cost
+
+|------
+|字段|类型|空|默认
+|------
+|//**cost_id**//|int(6)|否|
+|art_name|varchar(22)|是|NULL
+|layer_num|tinyint(2)|是|NULL
+|cost|double(5,2)|是|NULL

@@ -1,0 +1,26 @@
+== 表的结构 station_pointing
+
+|------
+|字段|类型|空|默认
+|------
+|//**spid**//|int(4)|否|
+|work_list_cid|int(3)|是|NULL
+|art_code|varchar(30)|否|
+|model|varchar(20)|否|
+|station_num|int(3)|否|
+|work_name|varchar(50)|否|
+|work_time|varchar(50)|否|
+|worker_num|int(4)|否|
+|operating_steps|text|否|
+|operate_import|text|否|
+|change_sign|varchar(50)|否|
+|spnum|int(6)|否|
+|change_sheet|varchar(50)|否|
+|autograph|varchar(20)|否|
+|spDate|date|否|
+|change_record|int(11)|否|
+|formation|varchar(50)|否|
+|examine|varchar(50)|否|
+|norm|varchar(50)|否|
+|ratify|varchar(50)|否|
+|gw_name|varchar(20)|是|NULL

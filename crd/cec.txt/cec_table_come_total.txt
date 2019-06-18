@@ -1,0 +1,9 @@
+== 表的结构 come_total
+
+|------
+|字段|类型|空|默认
+|------
+|//**co_id**//|int(7)|否|
+|cucid|int(7)|是|NULL
+|come_total|double(14,4)|是|NULL
+|total_date|date|是|NULL

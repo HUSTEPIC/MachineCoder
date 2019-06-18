@@ -1,0 +1,14 @@
+== 表的结构 other_erp
+
+|------
+|字段|类型|空|默认
+|------
+|//**other_id**//|int(5)|否|
+|cid|int(9)|是|NULL
+|other_contract_no|varchar(50)|是|NULL
+|other_product|varchar(50)|是|NULL
+|other_project_outlay|varchar(50)|是|NULL
+|other_test_outlay|varchar(50)|是|NULL
+|other_fz_outlay|varchar(50)|是|NULL
+|other_die_outlay|varchar(50)|是|NULL
+|other_customer_date|date|是|NULL

@@ -1,0 +1,10 @@
+== 表的结构 mold_waste_record
+
+|------
+|字段|类型|空|默认
+|------
+|//**mw_id**//|int(11)|否|
+|mt_id|int(11)|否|
+|waste_word|varchar(255)|是|NULL
+|waste_per|char(20)|是|NULL
+|waste_time|datetime|否|

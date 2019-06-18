@@ -1,0 +1,49 @@
+== 表的结构 khproduct_base
+
+|------
+|字段|类型|空|默认
+|------
+|//**pid**//|int(10)|否|
+|remark|text|是|NULL
+|serial|varchar(150)|是|NULL
+|layer_num|tinyint(2)|是|NULL
+|face_art|enum('A', 'B', 'C', 'D', 'E', 'F', 'G')|是|NULL
+|lcc_type|varchar(8)|否|
+|lcc_add|varchar(25)|是|NULL
+|cu_thick|char(3)|否|
+|end_cu_thick|varchar(7)|否|
+|mirror|enum('Y', 'N')|是|NULL
+|board_thick|double(7,3)|是|NULL
+|board_long|double(8,2)|是|NULL
+|board_width|double(8,2)|是|NULL
+|top_solder_art|enum('H', 'U', 'V')|是|NULL
+|top_solder_color|char(1)|是|NULL
+|bottom_solder_art|enum('H', 'U', 'V')|是|NULL
+|bottom_solder_color|char(1)|是|NULL
+|top_overlay_art|enum('H', 'U', 'P')|是|NULL
+|top_overlay_color|char(1)|是|NULL
+|bottom_overlay_art|enum('H', 'U', 'P')|是|NULL
+|bottom_overlay_color|char(1)|是|NULL
+|simple_mark|enum('0', '1')|否|0
+|set_long|double(9,2)|是|NULL
+|set_width|double(9,2)|是|NULL
+|set_out_bad|smallint(4)|是|NULL
+|out_type|enum('0', '1')|否|0
+|set_pcs|smallint(4)|否|1
+|via_solder|enum('A', 'B', 'C')|是|NULL
+|min_line|double(4,3)|是|NULL
+|min_space|double(4,3)|是|NULL
+|min_hole|double(3,2)|是|NULL
+|min_solder|double(4,3)|是|NULL
+|min_smt|double(4,3)|是|NULL
+|ict|tinyint(1)|否|0
+|semi_hole_pth|tinyint(1)|否|0
+|carbon_oil|tinyint(1)|否|0
+|blue_gum|tinyint(1)|否|0
+|goldfinger|tinyint(1)|否|0
+|customer_no|varchar(5)|否|
+|num|float(8,3)|是|NULL
+|delivery_datetime|date|是|NULL
+|filename|varchar(100)|是|NULL
+|filepath|varchar(100)|是|NULL
+|msg_to|char(3)|否|A0

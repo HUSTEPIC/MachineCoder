@@ -1,0 +1,10 @@
+== 表的结构 pagesize
+
+|------
+|字段|类型|空|默认
+|------
+|//**psid**//|int(3)|否|
+|username|varchar(30)|否|
+|pagename|varchar(10)|否|
+|pagesize|int(4)|否|
+|remark|varchar(30)|否|

@@ -1,0 +1,24 @@
+== 表的结构 qqc
+
+|------
+|字段|类型|空|默认
+|------
+|customer_code|varchar(25)|是|NULL
+|contract_no|varchar(21)|是|NULL
+|process_num|varchar(20)|是|NULL
+|model|varchar(30)|是|NULL
+|batch|varchar(25)|是|NULL
+|position_num|varchar(20)|是|NULL
+|bug_code|varchar(10)|是|NULL
+|bug_num|varchar(25)|是|NULL
+|comment|text|是|NULL
+|operator|varchar(20)|是|NULL
+|operate_time|int(10)|是|NULL
+|//**id**//|int(11)|否|
+|ds|int(11)|是|NULL
+|res_pro|varchar(20)|是|NULL
+|res_per|varchar(20)|是|NULL
+|res_dep|varchar(20)|是|NULL
+|bad_result|varchar(100)|是|NULL
+|_analyzeCause|text|是|NULL
+|_makingCorrection|text|是|NULL

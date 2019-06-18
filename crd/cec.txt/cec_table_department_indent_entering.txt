@@ -1,0 +1,17 @@
+== 表的结构 department_indent_entering
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(6)|否|
+|indent_no|varchar(10)|是|NULL
+|project_name|varchar(20)|是|NULL
+|project_per|varchar(20)|否|
+|project_sdate|date|是|NULL
+|xmu|varchar(50)|是|NULL
+|yq|varchar(60)|是|NULL
+|ry|varchar(100)|是|NULL
+|date|varchar(100)|是|NULL
+|state|varchar(20)|否|0,0,0,0,0,0,0
+|project_ndate|date|是|NULL
+|delivery_time|date|是|NULL

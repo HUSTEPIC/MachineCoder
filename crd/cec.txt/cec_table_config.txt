@@ -1,0 +1,12 @@
+== 表的结构 config
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(10)|否|
+|name|varchar(100)|是|NULL
+|config_no|text|是|NULL
+|config_class|varchar(100)|是|NULL
+|content|text|是|NULL
+|default|varchar(50)|是|NULL
+|system_wh|tinyint(1)|是|NULL

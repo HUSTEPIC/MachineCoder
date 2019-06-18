@@ -1,0 +1,12 @@
+== 表的结构 surplus_stock
+
+|------
+|字段|类型|空|默认
+|------
+|//**surplus_id**//|int(4)|否|
+|pid|int(4)|是|NULL
+|cid|int(4)|是|NULL
+|surplus_num|decimal(9,0)|是|NULL
+|surplus_date|date|是|0000-00-00
+|surplus_person|varchar(35)|是|NULL
+|surplus_result|varchar(100)|是|NULL

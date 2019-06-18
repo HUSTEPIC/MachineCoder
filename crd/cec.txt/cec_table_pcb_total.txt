@@ -1,0 +1,11 @@
+== 表的结构 pcb_total
+
+|------
+|字段|类型|空|默认
+|------
+|//**total_id**//|int(5)|否|
+|total_lot_id|int(4)|是|NULL
+|total_storage_num|decimal(12,4)|是|NULL
+|total_product_num|decimal(12,4)|是|NULL
+|total_wip_num|decimal(12,4)|是|NULL
+|total_date|date|是|NULL

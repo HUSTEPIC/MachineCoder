@@ -1,0 +1,22 @@
+== 表的结构 express
+
+|------
+|字段|类型|空|默认
+|------
+|//**express_id**//|int(5)|否|
+|customer_no|varchar(5)|是|NULL
+|contract_no|varchar(35)|否|
+|code_hgz|varchar(21)|是|NULL
+|inner_outer_label|enum('1', '2')|是|NULL
+|sale_no|int(12)|否|0
+|company|varchar(25)|是|NULL
+|y_sheet|varchar(15)|是|NULL
+|s_h|varchar(20)|是|NULL
+|middle_turn|varchar(20)|是|NULL
+|filter_result|int(2)|是|NULL
+|destcode|varchar(50)|否|
+|mailno|varchar(200)|否|
+|return_tracking_no|varchar(10)|否|
+|origincode|varchar(50)|是|NULL
+|orderid|int(20)|是|NULL
+|service|varchar(150)|是|NULL

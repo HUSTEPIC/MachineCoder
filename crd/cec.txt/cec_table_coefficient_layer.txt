@@ -1,0 +1,8 @@
+== 表的结构 coefficient_layer
+
+|------
+|字段|类型|空|默认
+|------
+|//**lay_id**//|int(5)|否|
+|layer_num|varchar(6)|是|NULL
+|layer_coefficient|double(5,3)|是|NULL

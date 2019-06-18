@@ -1,0 +1,13 @@
+== 表的结构 early_material
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(5)|否|
+|period_product|varchar(30)|是|NULL
+|period_storage_num|int(4)|是|NULL
+|period_product_num|int(4)|是|NULL
+|period_wip_num|decimal(12,4)|是|NULL
+|period_lot_card_no|varchar(30)|是|NULL
+|period_sub_lot_card_no|smallint(3)|是|0
+|period_date|date|是|NULL

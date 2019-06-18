@@ -1,0 +1,10 @@
+== 表的结构 contract_checkup_record
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(8)|否|
+|contract_no|varchar(35)|否|
+|remark|varchar(100)|是|NULL
+|recorder|varchar(8)|是|NULL
+|record_date|date|是|NULL

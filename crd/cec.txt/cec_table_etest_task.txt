@@ -1,0 +1,13 @@
+== 表的结构 etest_task
+
+|------
+|字段|类型|空|默认
+|------
+|//**eid**//|int(9)|否|
+|cid|int(8)|是|NULL
+|contract_no|varchar(23)|是|NULL
+|etset_type|varchar(12)|是|NULL
+|task_time|datetime|是|NULL
+|fover_time|datetime|是|NULL
+|fover_er|varchar(12)|是|NULL
+|etest_remark|text|是|NULL

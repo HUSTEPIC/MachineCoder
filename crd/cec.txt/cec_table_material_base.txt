@@ -1,0 +1,35 @@
+== 表的结构 material_base
+
+|------
+|字段|类型|空|默认
+|------
+|//**ba_id**//|int(8)|否|
+|**material_no**|varchar(25)|是|NULL
+|cg_per|char(32)|是|NULL
+|old_mate_no|varchar(13)|是|NULL
+|material_name|varchar(50)|是|NULL
+|subject_no|varchar(14)|是|NULL
+|type|char(2)|是|NULL
+|consu|double(8,3)|是|NULL
+|spec|varchar(50)|是|NULL
+|spec_long|decimal(8,2)|是|NULL
+|spec_width|decimal(8,2)|是|NULL
+|old_lot_no|varchar(10)|是|NULL
+|new_lot_no|varchar(10)|是|NULL
+|material_min|double(8,2)|是|NULL
+|material_max|double(8,2)|是|NULL
+|start_num|double(8,2)|是|NULL
+|unit|varchar(4)|是|NULL
+|start_price|decimal(14,8)|是|NULL
+|no_tax_price|decimal(14,8)|是|NULL
+|start_date|date|是|NULL
+|material_pause|char(1)|否|0
+|purpose|varchar(50)|是|NULL
+|quailty_require|varchar(100)|是|NULL
+|other_require|varchar(100)|是|NULL
+|purchase_order_number|varchar(22)|是|NULL
+|business_type|enum('0', '1')|否|1
+|m_house|char(32)|是|NULL
+|m_shelves|char(32)|是|NULL
+|m_level|char(32)|是|NULL
+|m_cell|char(32)|是|NULL

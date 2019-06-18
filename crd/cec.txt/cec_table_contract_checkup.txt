@@ -1,0 +1,57 @@
+== 表的结构 contract_checkup
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(8)|否|
+|cid|int(9)|是|NULL
+|contract_no|varchar(35)|否|
+|is_reviewed|enum('0', '1')|是|NULL
+|credit|enum('0', '1', '2')|是|NULL
+|is_price|enum('0', '1')|是|NULL
+|balance|enum('0', '1')|是|NULL
+|over_date|datetime|否|0000-00-00 00:00:00
+|over_er|varchar(8)|是|NULL
+|saler|varchar(8)|是|NULL
+|sale_date|datetime|否|0000-00-00 00:00:00
+|sales_review|text|是|NULL
+|sale_is_agree|enum('0', '1')|是|NULL
+|can|enum('0', '1')|是|NULL
+|technology|enum('0', '1')|是|NULL
+|engineer|varchar(8)|是|NULL
+|engineer_date|date|否|0000-00-00
+|technical_review|text|是|NULL
+|techno_is_agree|enum('0', '1')|是|NULL
+|material|enum('0', '1')|是|NULL
+|production|enum('0', '1')|是|NULL
+|course|enum('0', '1')|是|NULL
+|ontime|enum('0', '1')|是|NULL
+|produce_er|varchar(8)|是|NULL
+|produce_date|date|否|0000-00-00
+|produc_review|text|是|NULL
+|produc_is_agree|enum('0', '1')|是|NULL
+|quality|varchar(15)|是|NULL
+|qc|enum('0', '1')|是|NULL
+|fqc|enum('0', '1')|是|NULL
+|quality_er|varchar(8)|是|NULL
+|quality_date|date|否|0000-00-00
+|quality_review|text|是|NULL
+|quality_is_agree|enum('0', '1')|是|NULL
+|approval_person|varchar(100)|是|NULL
+|approval_time|date|否|0000-00-00
+|approval_opinion|text|是|NULL
+|approval_is_agree|enum('0', '1')|是|NULL
+|plan_contract|varchar(5)|否|0
+|line_color|varchar(8)|是|NULL
+|oem_one_checker|varchar(35)|是|NULL
+|oem_one_date|date|是|NULL
+|oem_one_remark|varchar(255)|是|NULL
+|oem_two_checker|varchar(35)|是|NULL
+|oem_two_date|date|是|NULL
+|oem_two_remark|varchar(255)|是|NULL
+|oem_three_checker|varchar(35)|是|NULL
+|oem_three_date|date|是|NULL
+|oem_three_remark|varchar(255)|是|NULL
+|oem_four_checker|varchar(35)|是|NULL
+|oem_four_date|date|是|NULL
+|oem_four_remark|varchar(255)|是|NULL

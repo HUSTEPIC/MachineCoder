@@ -1,0 +1,17 @@
+== 表的结构 painting_oem
+
+|------
+|字段|类型|空|默认
+|------
+|//**p_oem_id**//|int(10)|否|
+|cid|int(10)|否|
+|supply_name_oem|varchar(200)|否|
+|price_oem|double(9,4)|否|
+|date_oem|date|否|
+|date_fh|date|否|
+|num_oem|int(10)|否|
+|num_fh|int(10)|否|
+|p_date|date|否|
+|p_man|varchar(32)|否|
+|remark|varchar(200)|是|NULL
+|film_id|int(10)|否|

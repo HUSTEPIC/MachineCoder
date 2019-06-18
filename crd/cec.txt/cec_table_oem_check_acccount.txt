@@ -1,0 +1,7 @@
+== 表的结构 oem_check_acccount
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(8)|否|
+|oca_num|varchar(20)|是|NULL

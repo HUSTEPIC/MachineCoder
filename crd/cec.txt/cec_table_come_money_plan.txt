@@ -1,0 +1,9 @@
+== 表的结构 come_money_plan
+
+|------
+|字段|类型|空|默认
+|------
+|//**plan_id**//|int(6)|否|
+|customer_no|varchar(5)|是|NULL
+|plan_come_date|date|是|NULL
+|plan_come_money|double(9,2)|是|NULL

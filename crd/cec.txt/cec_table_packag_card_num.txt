@@ -1,0 +1,12 @@
+== 表的结构 packag_card_num
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(15)|否|
+|cid|int(10)|是|NULL
+|card_no|varchar(100)|是|NULL
+|code_num|varchar(255)|是|NULL
+|pnum|varchar(255)|是|NULL
+|print_user|varchar(255)|是|NULL
+|print_date|date|是|NULL

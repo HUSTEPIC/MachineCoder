@@ -1,0 +1,11 @@
+== 表的结构 pcb_customer
+
+|------
+|字段|类型|空|默认
+|------
+|//**p_c_id**//|int(9)|否|
+|cid|int(10)|否|
+|pid|int(11)|是|NULL
+|con_num|int(10)|否|
+|con_man|varchar(32)|否|
+|con_date|varchar(32)|否|

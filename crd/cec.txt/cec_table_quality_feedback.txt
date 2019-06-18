@@ -1,0 +1,57 @@
+== 表的结构 quality_feedback
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(7)|否|
+|contract_id|int(11)|是|NULL
+|contract_no|varchar(35)|否|
+|art_id|int(11)|是|NULL
+|lot_id|int(11)|是|NULL
+|q_manu_wf_id|int(9)|是|NULL
+|lot_card_no|varchar(15)|是|NULL
+|lot_num_pcs|int(5)|是|0
+|plane|smallint(5)|是|NULL
+|product|varchar(14)|是|NULL
+|layer_num|tinyint(2)|是|NULL
+|area|float(15,4)|是|NULL
+|check_result|varchar(255)|是|NULL
+|defect_code|varchar(20)|是|NULL
+|leak_checker|varchar(25)|是|NULL
+|origin|enum('0', '1')|否|0
+|number|double(16,2)|否|0.00
+|art_who|varchar(25)|是|NULL
+|art_who_dept|varchar(100)|是|0
+|art_name|varchar(50)|是|NULL
+|cost_adj|double(5,2)|是|NULL
+|finder|varchar(30)|是|NULL
+|find_date|datetime|否|0000-00-00 00:00:00
+|is_pdca|tinyint(1)|否|0
+|question|text|是|NULL
+|causation|text|是|NULL
+|master_causation|varchar(60)|是|NULL
+|anasyer|varchar(10)|是|NULL
+|anasy_date|date|否|0000-00-00
+|measure|text|是|NULL
+|is_measure|enum('0', '1')|否|
+|planer|varchar(10)|是|NULL
+|plan_date|date|否|0000-00-00
+|principal|varchar(10)|是|NULL
+|principal_date|date|否|0000-00-00
+|do_record|text|是|NULL
+|doer|varchar(10)|是|NULL
+|do_date|date|否|0000-00-00
+|validate|tinyint(1)|是|NULL
+|validateer|varchar(10)|是|NULL
+|validate_date|date|否|0000-00-00
+|experience|text|是|NULL
+|new_pdca|text|是|NULL
+|summarizeer|varchar(10)|是|NULL
+|summarize_date|date|否|0000-00-00
+|qs_num|double(10,0)|是|NULL
+|check_result_person|varchar(30)|是|NULL
+|check_result_time|datetime|是|NULL
+|tcheck_result_person|varchar(30)|是|NULL
+|tcheck_result_time|datetime|是|NULL
+|auditing|char(2)|是|3
+|oem|tinyint(1)|否|0

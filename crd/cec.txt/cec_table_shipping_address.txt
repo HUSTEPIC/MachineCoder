@@ -1,0 +1,16 @@
+== 表的结构 shipping_address
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(5)|否|
+|customer|varchar(5)|是|NULL
+|consignee|varchar(200)|是|NULL
+|good_time|datetime|是|NULL
+|province|varchar(200)|是|NULL
+|city|varchar(200)|是|NULL
+|county|varchar(200)|是|NULL
+|detailed_add|varchar(200)|是|NULL
+|address|text|是|NULL
+|default_tr|enum('0', '1')|否|
+|receiv_phone|varchar(100)|否|

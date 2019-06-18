@@ -1,0 +1,17 @@
+== 表的结构 check_direct
+
+|------
+|字段|类型|空|默认
+|------
+|//**cdid**//|int(4)|否|
+|work_list_cid|int(4)|是|NULL
+|change_sign|varchar(50)|是|NULL
+|count|int(6)|是|NULL
+|change_sheet|varchar(30)|是|NULL
+|autograph|varchar(30)|是|NULL
+|cdDate|date|是|NULL
+|formation|varchar(30)|是|NULL
+|examine|varchar(30)|是|NULL
+|norm|varchar(30)|是|NULL
+|ratify|varchar(30)|是|NULL
+|cdremark|text|是|NULL

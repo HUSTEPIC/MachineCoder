@@ -1,0 +1,9 @@
+== 表的结构 django_migrations
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(11)|否|
+|app|varchar(255)|否|
+|name|varchar(255)|否|
+|applied|datetime(6)|否|

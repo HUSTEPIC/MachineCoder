@@ -1,0 +1,23 @@
+== 表的结构 drl_tooling
+
+|------
+|字段|类型|空|默认
+|------
+|//**drl_id**//|int(12)|否|
+|pid|int(10)|是|NULL
+|tool_num|varchar(3)|是|NULL
+|hole_size|varchar(25)|是|NULL
+|tolerance|varchar(16)|是|NULL
+|tooling_size|double(5,3)|是|NULL
+|hole_num|smallint(5)|是|NULL
+|npth|tinyint(1)|否|0
+|npth_type|tinyint(1)|否|0
+|slot|tinyint(1)|否|0
+|sec_drill|tinyint(1)|否|0
+|sec_art|tinyint(1)|否|0
+|hole_num_pnl|int(7)|是|NULL
+|measure|varchar(30)|是|NULL
+|remark_drl|text|是|NULL
+|penetrate|varchar(6)|是|NULL
+|drl_file_type|varchar(15)|否|drl
+|p_type|enum('A', 'B', 'C')|是|A

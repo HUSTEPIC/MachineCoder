@@ -1,0 +1,14 @@
+== 表的结构 workflow
+
+|------
+|字段|类型|空|默认
+|------
+|//**flow_id**//|int(7)|否|
+|flow_title|varchar(80)|是|NULL
+|flow_content|text|是|NULL
+|editor|varchar(12)|是|NULL
+|edit_time|datetime|是|NULL
+|flow_end|text|是|NULL
+|flow_end_time|datetime|是|NULL
+|flow_type|tinyint(1)|否|1
+|remark|text|是|NULL

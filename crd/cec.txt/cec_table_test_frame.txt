@@ -1,0 +1,14 @@
+== 表的结构 test_frame
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(10)|否|
+|pid|int(10)|是|NULL
+|test_money|double(8,2)|是|NULL
+|start_time|date|是|NULL
+|free_money|double(8,2)|是|NULL
+|initial_amount|double(8,2)|是|NULL
+|is_exit|enum('0', '1')|否|0
+|operater|varchar(10)|是|NULL
+|operating_time|date|是|NULL

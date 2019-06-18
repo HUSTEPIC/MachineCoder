@@ -1,0 +1,10 @@
+== 表的结构 cancel_invoice
+
+|------
+|字段|类型|空|默认
+|------
+|//**cancel_Invoice_id**//|int(4)|否|
+|come_money_id|int(4)|是|NULL
+|cucid_id|int(4)|是|NULL
+|sale_sub_id|int(4)|是|NULL
+|money|decimal(15,4)|是|NULL

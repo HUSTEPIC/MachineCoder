@@ -1,0 +1,12 @@
+== 表的结构 sms
+
+|------
+|字段|类型|空|默认
+|------
+|//**s_id**//|int(7)|否|
+|mob|varchar(13)|是|NULL
+|sms|varchar(140)|是|NULL
+|send_time|datetime|是|NULL
+|sender|varchar(12)|是|NULL
+|in_time|datetime|是|NULL
+|iner|varchar(12)|是|NULL

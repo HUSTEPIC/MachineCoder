@@ -1,0 +1,17 @@
+== 表的结构 pcba_quality
+
+|------
+|字段|类型|空|默认
+|------
+|//**pcba_quality_id**//|int(10)|否|
+|work_list_cid|int(10)|是|NULL
+|contract_no|varchar(20)|是|NULL
+|qr_code|varchar(25)|是|NULL
+|art_code|varchar(10)|是|NULL
+|art_name|varchar(35)|是|NULL
+|batch_num|int(5)|是|NULL
+|batch_number|varchar(5)|是|NULL
+|casual_inspection|int(4)|是|NULL
+|defect_name|varchar(40)|是|NULL
+|remark|varchar(100)|是|NULL
+|state|int(10)|是|NULL

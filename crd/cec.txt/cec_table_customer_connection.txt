@@ -1,0 +1,25 @@
+== 表的结构 customer_connection
+
+|------
+|字段|类型|空|默认
+|------
+|//**conid**//|int(8)|否|
+|cucid|int(7)|是|NULL
+|customer_no|varchar(5)|是|NULL
+|name|varchar(12)|是|NULL
+|dept|varchar(20)|是|NULL
+|position|varchar(12)|是|NULL
+|birthday|date|是|NULL
+|nbirthday|varchar(20)|是|NULL
+|gender|enum('M', 'W')|是|NULL
+|interestle|varchar(40)|是|NULL
+|mobile|varchar(15)|是|NULL
+|mobi_bak|varchar(15)|是|NULL
+|tel_office|varchar(20)|是|NULL
+|family_tel|varchar(20)|是|NULL
+|family_add|varchar(60)|是|NULL
+|email_per|varchar(40)|是|NULL
+|msn|varchar(40)|是|NULL
+|qq|varchar(12)|是|NULL
+|url_per|varchar(40)|是|NULL
+|other|varchar(100)|是|NULL

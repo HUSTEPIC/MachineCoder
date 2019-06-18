@@ -1,0 +1,16 @@
+== 表的结构 nkwl_sheets
+
+|------
+|字段|类型|空|默认
+|------
+|//**materiel_id**//|int(4)|否|
+|materiel_name|varchar(20)|是|NULL
+|spec_model|varchar(30)|是|NULL
+|number|int(3)|是|NULL
+|price|float(4,2)|是|NULL
+|materiel_code|varchar(20)|是|NULL
+|materiel_ddnum|varchar(20)|是|NULL
+|coding|varchar(12)|否|0
+|supply|varchar(30)|是|NULL
+|place|varchar(20)|是|NULL
+|type|int(1)|否|

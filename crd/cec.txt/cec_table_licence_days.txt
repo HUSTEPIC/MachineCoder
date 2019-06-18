@@ -1,0 +1,14 @@
+== 表的结构 licence_days
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(11)|否|
+|erp_no|varchar(10)|是|NULL
+|out_trade_no|varchar(64)|是|NULL
+|trade_no|varchar(64)|是|NULL
+|expire_hehe|varchar(32)|是|NULL
+|renew|decimal(10,2)|是|NULL
+|is_renew|tinyint(2)|是|NULL
+|pay_date|datetime|是|NULL
+|contract_payment|decimal(8,2)|否|

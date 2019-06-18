@@ -1,0 +1,16 @@
+== 表的结构 film_base
+
+|------
+|字段|类型|空|默认
+|------
+|//**film_id**//|int(8)|否|
+|cid|int(9)|是|NULL
+|contract_no|varchar(35)|否|
+|film_name|varchar(26)|否|
+|number|int(2)|是|NULL
+|ark_no|char(2)|是|NULL
+|ark_sub_no|char(2)|是|NULL
+|bag_no|varchar(6)|是|NULL
+|film_estate|enum('0', '1', '2')|是|NULL
+|start_date|datetime|是|NULL
+|valid|varchar(4)|是|NULL

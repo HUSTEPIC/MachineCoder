@@ -1,0 +1,18 @@
+== 表的结构 box
+
+|------
+|字段|类型|空|默认
+|------
+|//**boxid**//|int(7)|否|
+|cid|int(7)|否|
+|boxnum|int(6)|是|NULL
+|spare|enum('0', '1')|否|0
+|boxspec|varchar(12)|是|NULL
+|boxno|varchar(5)|是|NULL
+|listno|int(2)|是|NULL
+|boxdate|date|是|NULL
+|net_weight|double(5,2)|是|NULL
+|gross_weight|double(5,2)|是|NULL
+|date_code|varchar(24)|是|NULL
+|boxer|varchar(12)|是|NULL
+|remark|text|是|NULL

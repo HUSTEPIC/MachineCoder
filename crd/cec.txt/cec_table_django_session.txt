@@ -1,0 +1,8 @@
+== 表的结构 django_session
+
+|------
+|字段|类型|空|默认
+|------
+|//**session_key**//|varchar(40)|否|
+|session_data|longtext|否|
+|expire_date|datetime(6)|否|

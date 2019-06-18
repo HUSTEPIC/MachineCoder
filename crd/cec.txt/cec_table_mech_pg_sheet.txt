@@ -1,0 +1,16 @@
+== 表的结构 mech_pg_sheet
+
+|------
+|字段|类型|空|默认
+|------
+|//**pg_id**//|int(3)|否|
+|pg_ma_id|int(3)|是|NULL
+|pg_person|varchar(35)|是|NULL
+|pg_art|varchar(40)|是|NULL
+|pg_receive_num|int(3)|是|NULL
+|pg_over_num|int(3)|是|NULL
+|pg_receive_time|date|是|NULL
+|pg_over_time|date|是|NULL
+|pg_control_person|varchar(35)|是|NULL
+|pg_fxgs|decimal(8,3)|是|NULL
+|pg_total_gs|decimal(10,3)|是|NULL

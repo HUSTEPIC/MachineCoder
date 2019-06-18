@@ -1,0 +1,10 @@
+== 表的结构 server_address
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(2)|否|
+|server_name|varchar(35)|否|
+|server_address|varchar(100)|否|
+|free_tel|varchar(16)|是|NULL
+|index_web|varchar(50)|是|NULL

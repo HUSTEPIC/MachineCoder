@@ -1,0 +1,11 @@
+== 表的结构 hdi_core_board
+
+|------
+|字段|类型|空|默认
+|------
+|//**core_id**//|int(10)|否|
+|hdi_id|int(10)|是|NULL
+|core_thick|double(6,5)|是|NULL
+|core_material|varchar(20)|是|NULL
+|core_cu_thick|varchar(8)|是|NULL
+|layer_type|varchar(6)|是|NULL

@@ -1,0 +1,12 @@
+== 表的结构 service
+
+|------
+|字段|类型|空|默认
+|------
+|//**sid**//|int(6)|否|
+|ch_id|int(6)|是|NULL
+|service_date|date|是|NULL
+|maintainer|varchar(15)|是|NULL
+|maintained_date|date|是|NULL
+|maintain_measure|text|是|NULL
+|service_remark|text|是|NULL

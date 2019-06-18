@@ -1,0 +1,10 @@
+== 表的结构 mold_use_record
+
+|------
+|字段|类型|空|默认
+|------
+|mr_id|int(11)|否|
+|mt_id|int(11)|否|
+|do_per|char(32)|是|NULL
+|do_time|datetime|否|
+|operate|char(32)|是|NULL

@@ -1,0 +1,11 @@
+== 表的结构 out_money_plan
+
+|------
+|字段|类型|空|默认
+|------
+|//**out_id**//|int(7)|否|
+|subject_no|varchar(8)|是|NULL
+|plan_out_date|date|是|NULL
+|plan_out_money|double(12,4)|是|NULL
+|pass_money|double(12,4)|是|NULL
+|passer|varchar(8)|是|NULL

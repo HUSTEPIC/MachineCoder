@@ -1,0 +1,16 @@
+== 表的结构 surfacegongshi
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(2)|否|
+|surface_art|tinyint(3)|是|NULL
+|minArea|decimal(8,4)|是|NULL
+|maxArea|decimal(8,4)|是|NULL
+|zb_gongshi|decimal(8,3)|是|NULL
+|addMei|decimal(8,2)|是|NULL
+|addMeiGs|decimal(8,3)|是|NULL
+|gj_cl|char(2)|是|NULL
+|djgj_xs|decimal(8,2)|是|NULL
+|bmcl_bh|char(2)|是|NULL
+|mei_add_gs|decimal(8,2)|是|NULL

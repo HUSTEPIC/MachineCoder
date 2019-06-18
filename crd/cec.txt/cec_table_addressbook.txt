@@ -1,0 +1,11 @@
+== 表的结构 addressbook
+
+|------
+|字段|类型|空|默认
+|------
+|//**add_id**//|int(7)|否|
+|add_dept|tinyint(2)|是|NULL
+|add_name|varchar(12)|是|NULL
+|off_tel|varchar(15)|是|NULL
+|mobile|varchar(15)|是|NULL
+|add_date|date|是|NULL

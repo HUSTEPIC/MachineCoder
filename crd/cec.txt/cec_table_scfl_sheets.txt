@@ -1,0 +1,9 @@
+== 表的结构 scfl_sheets
+
+|------
+|字段|类型|空|默认
+|------
+|//**product_id**//|int(4)|否|
+|person|varchar(20)|是|NULL
+|coding|varchar(12)|否|
+|out_number|int(4)|是|NULL

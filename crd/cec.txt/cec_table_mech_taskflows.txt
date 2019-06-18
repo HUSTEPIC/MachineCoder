@@ -1,0 +1,14 @@
+== 表的结构 mech_taskflows
+
+|------
+|字段|类型|空|默认
+|------
+|//**meflow_id**//|int(4)|否|
+|ma_id|int(4)|是|NULL
+|operation_num|int(4)|是|NULL
+|process_name|varchar(30)|是|NULL
+|process_remark|varchar(50)|是|NULL
+|on_test|varchar(30)|是|NULL
+|over_proof|varchar(30)|是|NULL
+|reject|varchar(30)|是|NULL
+|remark|varchar(50)|是|NULL

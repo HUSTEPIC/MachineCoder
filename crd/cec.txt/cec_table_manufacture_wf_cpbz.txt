@@ -1,0 +1,16 @@
+== 表的结构 manufacture_wf_cpbz
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(10)|否|
+|pid|int(10)|是|NULL
+|contract_no|varchar(35)|否|
+|lot_card_no|varchar(20)|否|
+|operator_id|varchar(25)|是|NULL
+|operator_deptid|varchar(100)|否|
+|count_art_time|datetime|是|NULL
+|count_art_time_cpbz|datetime|是|NULL
+|num|smallint(5)|是|NULL
+|num_cpbz|smallint(5)|是|NULL
+|count_art_area_fb|double(8,4)|是|NULL

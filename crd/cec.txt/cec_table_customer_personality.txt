@@ -1,0 +1,11 @@
+== 表的结构 customer_personality
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(11)|否|
+|customer_no|varchar(8)|是|NULL
+|ind_demand|text|是|NULL
+|ind_user|varchar(50)|是|NULL
+|ind_time|datetime|是|NULL
+|customer_short|varchar(255)|是|NULL

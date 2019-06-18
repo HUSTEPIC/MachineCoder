@@ -1,0 +1,45 @@
+== 表的结构 customer_base
+
+|------
+|字段|类型|空|默认
+|------
+|//**cubid**//|int(7)|否|
+|**customer_no**|varchar(5)|是|NULL
+|customer_short|varchar(20)|是|NULL
+|address|varchar(80)|是|NULL
+|TPC_address|varchar(50)|是|NULL
+|oldcode|varchar(6)|是|NULL
+|postcode|varchar(6)|是|NULL
+|tel|varchar(20)|是|NULL
+|fax|varchar(20)|是|NULL
+|email|varchar(40)|是|NULL
+|url|varchar(40)|是|NULL
+|linkman|varchar(12)|是|NULL
+|linkman_tel|varchar(20)|是|NULL
+|customer_type|varchar(16)|是|NULL
+|customer_area|varchar(30)|是|NULL
+|receive_add|varchar(80)|是|NULL
+|receive_man|varchar(16)|是|NULL
+|receive_tel|varchar(16)|是|NULL
+|service_admin|varchar(12)|否|
+|had_er|varchar(12)|是|NULL
+|source|enum('A', 'B', 'C', 'D', 'E', 'F')|是|NULL
+|type|tinyint(4)|否|
+|login_dt|date|是|NULL
+|status|tinyint(1)|否|1
+|ht_qr|char(1)|否|3
+|ht_ws|char(1)|否|2
+|customer_type_pcb|char(1)|否|1
+|customer_cp_bs|varchar(50)|是|NULL
+|delivered_quantity|text|是|NULL
+|spare_coefficient|double|是|NULL
+|monetary_unit|tinyint(2)|否|0
+|sz_affirm|varchar(50)|是|NULL
+|mold_return|decimal(10,4)|是|NULL
+|test_stand_return|decimal(10,4)|是|NULL
+|contract_terms|text|是|NULL
+|accept_stand|char(50)|是|NULL
+|print_p|int(11)|否|0
+|certificate|char(2)|是|NULL
+|add_sq|int(10)|否|
+|client_recon_type|enum('A', 'B')|否|A

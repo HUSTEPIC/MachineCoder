@@ -1,0 +1,41 @@
+== 表的结构 customer_old
+
+|------
+|字段|类型|空|默认
+|------
+|//**cold_id**//|int(7)|否|
+|customer_no|varchar(5)|是|NULL
+|customer_short|varchar(20)|是|NULL
+|address|varchar(40)|是|NULL
+|oldcode|char(3)|是|NULL
+|postcode|varchar(6)|是|NULL
+|tel|varchar(20)|是|NULL
+|fax|varchar(20)|是|NULL
+|email|varchar(40)|是|NULL
+|url|varchar(40)|是|NULL
+|linkman|varchar(12)|是|NULL
+|linkman_tel|varchar(12)|是|NULL
+|customer_type|varchar(16)|是|NULL
+|service_admin|varchar(12)|是|NULL
+|had_er|varchar(12)|是|NULL
+|source|enum('A', 'B', 'C', 'D', 'E', 'F')|是|NULL
+|type|enum('0', '1')|是|NULL
+|login_dt|date|是|NULL
+|customer_name|varchar(40)|是|NULL
+|bank|varchar(40)|是|NULL
+|accounts|varchar(25)|是|NULL
+|tax_no|varchar(20)|是|NULL
+|master|varchar(12)|是|NULL
+|credit_grade|varchar(4)|是|NULL
+|credit_sum|double(14,4)|是|NULL
+|income_sum|double(14,4)|是|NULL
+|income_date|date|是|NULL
+|login_money|double(14,4)|是|NULL
+|login_date|date|是|NULL
+|company_type|varchar(12)|是|NULL
+|product|varchar(40)|是|NULL
+|employee|smallint(6)|是|NULL
+|remark|varchar(60)|是|NULL
+|come_type|varchar(30)|是|NULL
+|indent_type|text|是|NULL
+|price_text|text|是|NULL

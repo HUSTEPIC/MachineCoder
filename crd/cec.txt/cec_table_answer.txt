@@ -1,0 +1,10 @@
+== 表的结构 answer
+
+|------
+|字段|类型|空|默认
+|------
+|//**an_id**//|int(11)|否|
+|qu_id|int(11)|是|NULL
+|an_content|text|是|NULL
+|an_er|varchar(12)|是|NULL
+|an_time|datetime|是|NULL

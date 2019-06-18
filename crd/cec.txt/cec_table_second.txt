@@ -1,0 +1,19 @@
+== 表的结构 second
+
+|------
+|字段|类型|空|默认
+|------
+|//**s_id**//|int(4)|否|
+|work_list_second_cid|int(4)|是|NULL
+|material_no|varchar(20)|是|NULL
+|name|varchar(50)|是|NULL
+|s_num|int(4)|是|NULL
+|s_dept|varchar(20)|是|NULL
+|s_er|varchar(20)|是|NULL
+|s_date|date|是|0000-00-00
+|ok_er|varchar(20)|是|NULL
+|ok_num|int(4)|是|NULL
+|re_date|date|是|0000-00-00
+|is_date|date|是|0000-00-00
+|remark|varchar(50)|是|NULL
+|rem|varchar(6)|是|NULL

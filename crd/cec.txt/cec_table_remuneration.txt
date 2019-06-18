@@ -1,0 +1,9 @@
+== 表的结构 remuneration
+
+|------
+|字段|类型|空|默认
+|------
+|//**re_id**//|int(8)|否|
+|art_name|varchar(22)|是|NULL
+|lay_num|tinyint(2)|是|NULL
+|remuneration|double(7,4)|是|NULL

@@ -1,0 +1,20 @@
+== 表的结构 customer_record
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(10)|否|
+|pid|int(10)|是|NULL
+|cust_no|varchar(20)|是|NULL
+|product|varchar(30)|是|NULL
+|old_product|varchar(200)|是|NULL
+|file_name|varchar(255)|是|NULL
+|complaints_record|text|是|NULL
+|record_result|varchar(255)|是|NULL
+|record_user|varchar(50)|是|NULL
+|record_time|datetime|是|NULL
+|dispose_time|datetime|是|NULL
+|disposer|varchar(20)|是|NULL
+|fakuan|varchar(20)|否|
+|res_ment|varchar(20)|否|
+|res_er|varchar(20)|否|

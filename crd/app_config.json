@@ -1,0 +1,27 @@
+{
+	"framework":"django",
+	"app_name": "erp_backend",
+	"sub_models": [
+		"customer",
+		"contract",
+		"project",
+		"plan",
+		"manufacture",
+		"quality",
+		"warehouse",
+		"finance",
+		"cash"
+	],
+	"datasets": {
+		"default":{
+			"ENGINE": "django.db.backends.mysql",
+			"NAME": "cec",
+			"USER": "root",
+			"PASSWORD": "epic2012",
+			"HOST": "aiwac.net",
+			"PORT": 3306
+			}
+	
+	}
+}
+

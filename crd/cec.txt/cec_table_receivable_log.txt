@@ -1,0 +1,13 @@
+== 表的结构 receivable_log
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(4)|否|
+|re_id|int(5)|是|NULL
+|customer_no|varchar(6)|是|NULL
+|year_no|varchar(4)|是|NULL
+|ctime|datetime|是|NULL
+|cuser|varchar(50)|是|NULL
+|ctype|varchar(100)|是|NULL
+|log_str|mediumtext|是|NULL

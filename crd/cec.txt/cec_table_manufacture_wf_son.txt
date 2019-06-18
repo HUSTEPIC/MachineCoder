@@ -1,0 +1,17 @@
+== 表的结构 manufacture_wf_son
+
+|------
+|字段|类型|空|默认
+|------
+|//**wf_son**//|int(9)|否|
+|manu_wf_id|int(9)|否|
+|lot_id|int(10)|是|NULL
+|art_no|varchar(4)|是|NULL
+|art_name|varchar(22)|是|NULL
+|display_order|tinyint(2)|是|NULL
+|art_num|int(5)|否|0
+|count_art_time|datetime|否|0000-00-00 00:00:00
+|remun_adj|double(5,2)|是|NULL
+|art_who|varchar(25)|是|NULL
+|art_who_deptid|varchar(100)|是|NULL
+|fp_art_num|int(5)|否|0

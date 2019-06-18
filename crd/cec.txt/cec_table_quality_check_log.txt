@@ -1,0 +1,16 @@
+== 表的结构 quality_check_log
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|bigint(20)|否|
+|lot_id|int(10)|是|NULL
+|art_id|bigint(20)|否|
+|art_name|varchar(125)|是|NULL
+|check_num|int(10)|否|
+|check_good_num|double(8,2)|是|NULL
+|check_bad_num|double(8,2)|是|NULL
+|check_result|varchar(255)|是|NULL
+|check_who_id|varchar(25)|否|
+|check_time|datetime|是|NULL
+|state|varchar(10)|是|状态：通过；拒收

@@ -1,0 +1,10 @@
+== 表的结构 mould
+
+|------
+|字段|类型|空|默认
+|------
+|//**moid**//|int(9)|否|
+|mo_num|int(10)|否|
+|mo_man|varchar(32)|否|
+|mo_date|varchar(32)|否|
+|mo_product|varchar(32)|否|

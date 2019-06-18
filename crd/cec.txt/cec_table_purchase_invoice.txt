@@ -1,0 +1,13 @@
+== 表的结构 purchase_invoice
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(10)|否|
+|pu_id|int(10)|是|NULL
+|invoice_no|varchar(100)|是|NULL
+|material_no|varchar(100)|是|NULL
+|record_person|varchar(100)|是|NULL
+|record_time|datetime|是|0000-00-00 00:00:00
+|money|decimal(8,0)|是|NULL
+|purchase_inid|int(10)|是|NULL

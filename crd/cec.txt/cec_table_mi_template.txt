@@ -1,0 +1,14 @@
+== 表的结构 mi_template
+
+|------
+|字段|类型|空|默认
+|------
+|//**mit_id**//|smallint(5)|否|
+|mi_no|varchar(4)|是|NULL
+|art_no|varchar(4)|是|NULL
+|art_name|varchar(22)|是|NULL
+|project_name|varchar(30)|是|NULL
+|unit|varchar(6)|是|NULL
+|default_val|varchar(20)|是|NULL
+|disp_order|smallint(3)|是|NULL
+|mi_remark|text|是|NULL

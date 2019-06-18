@@ -1,0 +1,26 @@
+== 表的结构 work_list_art
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(10)|否|
+|work_list_cid|int(10)|是|NULL
+|h_pro_line|varchar(20)|是|NULL
+|art_code|varchar(10)|是|NULL
+|art_name|varchar(35)|是|NULL
+|bool|int(1)|是|NULL
+|qc_bool|int(1)|是|NULL
+|_num|int(10)|是|NULL
+|_percent|int(3)|是|NULL
+|_who|varchar(20)|是|NULL
+|_who_time|datetime|是|NULL
+|_check|varchar(20)|是|NULL
+|_check_time|int(10)|是|NULL
+|_check_good_num|int(10)|是|NULL
+|_check_bad_num|int(10)|是|NULL
+|_starttime|datetime|是|NULL
+|_endtime|date|是|NULL
+|_state|varchar(20)|是|NULL
+|end_time|datetime|是|NULL
+|display_order|int(4)|是|NULL
+|_makePointing|text|是|NULL

@@ -1,0 +1,24 @@
+== 表的结构 metallographic
+
+|------
+|字段|类型|空|默认
+|------
+|//**ta_id**//|int(7)|否|
+|contract_no|varchar(35)|是|NULL
+|mid|int(9)|是|NULL
+|sample_num|int(3)|是|NULL
+|sample_date|date|否|0000-00-00
+|analysis_date|date|否|0000-00-00
+|analysis_er|varchar(12)|是|NULL
+|inner_ring|double(4,2)|是|NULL
+|face_cu_thick|double(5,3)|是|NULL
+|inner_cu_thick|double(5,3)|是|NULL
+|medium_thick|double(5,3)|是|NULL
+|concave|double(5,3)|是|NULL
+|up_cu_thick|int(3)|是|NULL
+|mid_cu_thick|int(3)|是|NULL
+|down_cu_thick|int(3)|是|NULL
+|lateral|double(5,3)|是|NULL
+|coincidence|double(5,3)|是|NULL
+|conclusion|text|是|NULL
+|ta_remark|text|是|NULL

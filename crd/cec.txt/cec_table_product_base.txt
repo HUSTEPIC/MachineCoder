@@ -1,0 +1,97 @@
+== 表的结构 product_base
+
+|------
+|字段|类型|空|默认
+|------
+|//**pid**//|int(10)|否|
+|**product**|varchar(20)|是|NULL
+|old_product|varchar(35)|是|NULL
+|serial|varchar(150)|是|NULL
+|short_code|varchar(3)|是|NULL
+|layer_num|varchar(35)|是|NULL
+|pro_type|enum('1', '2', '3', '4')|否|1
+|face_art|char(3)|是|NULL
+|lcc_type|varchar(25)|否|
+|lcc_add|varchar(25)|是|NULL
+|cu_thick|varchar(7)|否|
+|ccl_thick|double(8,3)|是|NULL
+|ccl_thick_tolerance|varchar(30)|否|
+|end_cu_thick|varchar(25)|否|
+|kt_thick|varchar(12)|是|NULL
+|mirror|char(1)|是|NULL
+|board_thick|double(7,3)|是|NULL
+|board_thick_tolerance|varchar(30)|否|
+|board_long|double(8,2)|是|NULL
+|board_width|double(8,2)|是|NULL
+|top_solder_art|char(1)|是|NULL
+|top_solder_color|char(1)|是|NULL
+|top_solder_ink_type|varchar(255)|是|NULL
+|top_solder_subject|varchar(255)|是|NULL
+|bottom_solder_art|char(1)|是|NULL
+|bottom_solder_color|char(1)|是|NULL
+|bottom_solder_ink_type|varchar(255)|是|NULL
+|bottom_solder_subject|varchar(255)|是|NULL
+|top_overlay_art|char(1)|是|NULL
+|top_overlay_color|char(1)|是|NULL
+|top_overlay_ink_type|varchar(255)|是|NULL
+|top_overlay_subject|varchar(255)|是|NULL
+|bottom_overlay_art|char(1)|是|NULL
+|bottom_overlay_color|char(1)|是|NULL
+|bottom_overlay_ink_type|varchar(255)|是|NULL
+|bottom_overlay_subject|varchar(255)|是|NULL
+|simple_mark|char(1)|否|0
+|set_long|double(9,2)|是|NULL
+|set_width|double(9,2)|是|NULL
+|set_out_bad|smallint(4)|是|NULL
+|out_type|char(1)|否|0
+|set_pcs|smallint(4)|否|1
+|via_solder|char(1)|是|NULL
+|min_line|double(5,3)|是|NULL
+|min_space|double(5,3)|是|NULL
+|min_hole|double(4,2)|是|NULL
+|min_solder|double(5,3)|是|NULL
+|min_smt|double(5,3)|是|NULL
+|ict|tinyint(1)|否|0
+|semi_hole_pth|tinyint(1)|否|0
+|carbon_oil|tinyint(1)|否|0
+|blue_gum|tinyint(1)|否|0
+|goldfinger|smallint(4)|否|0
+|pass_precent|float(7,4)|否|0.0000
+|film_number|int(3)|否|0
+|spec_pro|text|是|NULL
+|change_log|text|是|NULL
+|ver_no|char(3)|否|A0
+|scutcheon|tinyint(1)|否|0
+|kind|tinyint(2)|否|1
+|degree_difficuly|double(3,1)|否|1.0
+|degree_product|double(3,1)|是|NULL
+|pad_density|tinyint(2)|是|NULL
+|heat_conduction|varchar(10)|是|NULL
+|withstard_voltage|varchar(10)|是|NULL
+|gold_ply|varchar(10)|是|NULL
+|embedment|tinyint(1)|否|0
+|halogen|tinyint(1)|否|1
+|sample_command|varchar(100)|是|NULL
+|sample_code|varchar(10)|是|NULL
+|confirm_sample_code|varchar(4)|是|NULL
+|hdi|enum('0', '1')|否|0
+|dielectric_constant|double(4,3)|是|NULL
+|hole_art|varchar(10)|是|NULL
+|logo|enum('0', '1', '2', '3', '4', '5')|否|1
+|ul_logo|enum('0', '1', '2', '3', '4', '5')|否|0
+|production_cycle|enum('0', '1', '2', '3', '4', '5', '6', '7', '8', '9')|否|1
+|identity_layer|enum('0', '1', '2', '3', '4', '5')|否|1
+|nopb_logo|enum('0', '1', '2', '3', '4', '5')|否|0
+|rohs_logo|enum('0', '1', '2', '3', '4', '5')|否|0
+|inspection_report|enum('0', '1', '2', '3', '4', '5')|否|1
+|coc_report|enum('0', '1', '2', '3', '4', '5')|否|0
+|metallographic_report|enum('0', '1', '2', '3', '4', '5')|否|0
+|impedance_report|enum('0', '1', '2', '3', '4', '5')|否|0
+|indicator|enum('0', '1', '2', '3', '4', '5')|否|0
+|review|enum('0', '1')|否|0
+|review_er|varchar(12)|是|NULL
+|review_time|datetime|否|
+|review_text|text|是|NULL
+|thermal_v|varchar(200)|是|NULL
+|reflectivity_v|varchar(200)|是|NULL
+|layer_num1|varchar(35)|否|

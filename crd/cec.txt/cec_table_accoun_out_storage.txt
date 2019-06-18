@@ -1,0 +1,33 @@
+== 表的结构 accoun_out_storage
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(5)|否|
+|material_no|varchar(9)|是|NULL
+|invoice_num|varchar(30)|是|NULL
+|date|date|是|NULL
+|price|decimal(14,8)|是|NULL
+|unit|varchar(10)|是|NULL
+|number|int(10)|是|NULL
+|audit_person|date|是|NULL
+|audit_date|date|是|NULL
+|check_person|varchar(30)|是|NULL
+|check_date|date|是|NULL
+|accounting|varchar(100)|是|NULL
+|department|varchar(100)|是|NULL
+|executive_director|varchar(30)|是|NULL
+|freight_taxes|decimal(10,8)|是|NULL
+|document_status|enum('0', '1', '2')|是|NULL
+|salesman|varchar(50)|是|NULL
+|single_system|varchar(50)|是|NULL
+|drawer|varchar(50)|是|NULL
+|currency|decimal(10,8)|是|NULL
+|exchange_rate|decimal(10,8)|是|NULL
+|menu_num|varchar(30)|是|NULL
+|annual_interest_rate|decimal(10,8)|是|NULL
+|accrued_cost|double(12,8)|是|NULL
+|exclud_cost|decimal(12,8)|是|NULL
+|period_validity|date|是|NULL
+|shelf_life|tinyint(4)|是|NULL
+|remark|varchar(255)|是|NULL

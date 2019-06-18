@@ -1,0 +1,12 @@
+== 表的结构 textarea_txt
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(3)|否|
+|userid|varchar(25)|是|NULL
+|textarea|varchar(250)|是|NULL
+|name|varchar(20)|是|NULL
+|zhxx|char(1)|否|1
+|ylrk|char(1)|否|2
+|ylll|char(1)|否|2

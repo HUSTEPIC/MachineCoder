@@ -1,0 +1,14 @@
+== 表的结构 file_action
+
+|------
+|字段|类型|空|默认
+|------
+|//**f_a_id**//|int(10)|否|
+|f_id|int(10)|否|
+|f_size|varchar(20)|是|NULL
+|act_time|datetime|是|NULL
+|act_user|varchar(16)|是|NULL
+|act_ip|varchar(15)|是|NULL
+|act_mac|varchar(17)|是|NULL
+|act_type|tinyint(1)|是|NULL
+|act_change|text|是|NULL

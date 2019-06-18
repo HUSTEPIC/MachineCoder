@@ -1,0 +1,12 @@
+== 表的结构 workflow_process
+
+|------
+|字段|类型|空|默认
+|------
+|//**pro_id**//|int(7)|否|
+|flow_id|int(7)|是|NULL
+|processer|varchar(12)|是|NULL
+|readed|tinyint(1)|否|0
+|reply_content|text|是|NULL
+|reply_time|datetime|是|NULL
+|sp|varchar(6)|是|NULL

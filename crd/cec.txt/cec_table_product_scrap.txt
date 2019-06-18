@@ -1,0 +1,14 @@
+== 表的结构 product_scrap
+
+|------
+|字段|类型|空|默认
+|------
+|//**pro_scrap_id**//|int(4)|否|
+|contract_no|varchar(20)|是|NULL
+|model|varchar(20)|是|NULL
+|bianhao|varchar(20)|是|NULL
+|bnxx|varchar(200)|是|NULL
+|wxnr|varchar(200)|是|NULL
+|remark|varchar(100)|是|NULL
+|numx|varchar(20)|是|NULL
+|statex|int(4)|是|0

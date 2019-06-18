@@ -1,0 +1,13 @@
+== 表的结构 material_standard_price
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(5)|否|
+|material_no|varchar(30)|是|NULL
+|material|varchar(50)|是|NULL
+|price|decimal(8,4)|是|NULL
+|material_long|double(4,4)|是|NULL
+|material_width|double(4,4)|是|NULL
+|material_area|double(4,4)|是|NULL
+|material_price|decimal(10,4)|是|NULL

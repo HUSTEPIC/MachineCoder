@@ -1,0 +1,11 @@
+== 表的结构 distribution_standard_log
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(4)|否|
+|distribution_standard_id|int(5)|是|NULL
+|ctime|datetime|是|NULL
+|cperson|varchar(50)|是|NULL
+|ctype|varchar(100)|是|NULL
+|log_str|mediumtext|是|NULL

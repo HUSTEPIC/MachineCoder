@@ -1,0 +1,12 @@
+== 表的结构 appeal
+
+|------
+|字段|类型|空|默认
+|------
+|//**app_id**//|int(7)|否|
+|qf_id|int(8)|是|NULL
+|appeal_art|varchar(20)|是|NULL
+|appeal_er|varchar(12)|是|NULL
+|appeal_date|date|是|NULL
+|appeal_content|text|是|NULL
+|remark|text|是|NULL

@@ -1,0 +1,14 @@
+== 表的结构 film_in_out
+
+|------
+|字段|类型|空|默认
+|------
+|//**fin_id**//|int(9)|否|
+|film_id|int(8)|是|NULL
+|contract_no|varchar(35)|否|
+|in_er|varchar(8)|是|NULL
+|in_date|datetime|是|NULL
+|out_er|varchar(8)|是|NULL
+|out_date|datetime|是|NULL
+|bf_er|varchar(8)|是|NULL
+|bf_date|datetime|是|NULL

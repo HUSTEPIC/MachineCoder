@@ -1,0 +1,10 @@
+== 表的结构 eq
+
+|------
+|字段|类型|空|默认
+|------
+|//**eqid**//|int(4)|否|
+|eqname|varchar(60)|是|NULL
+|eqvalume|double(11,2)|是|NULL
+|startdate|date|是|NULL
+|xold|int(2)|是|NULL

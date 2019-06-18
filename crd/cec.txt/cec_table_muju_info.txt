@@ -1,0 +1,27 @@
+== 表的结构 muju_info
+
+|------
+|字段|类型|空|默认
+|------
+|//**mu_id**//|int(8)|否|
+|gongbu_card_no|varchar(25)|是|NULL
+|pro_bianhao|varchar(25)|是|NULL
+|customer_short|varchar(25)|是|NULL
+|custmoer_no|varchar(20)|是|NULL
+|customer_bianhao|varchar(30)|是|NULL
+|sheet_spec|varchar(25)|是|NULL
+|order_num|decimal(10,2)|是|NULL
+|order_area|decimal(14,4)|是|NULL
+|place_order_time|date|是|NULL
+|delivery_time|date|是|NULL
+|muju_type|varchar(20)|是|NULL
+|required_time|date|否|
+|is_kaimu|varchar(20)|是|NULL
+|kaimu_part|varchar(20)|是|NULL
+|is_ordered|varchar(20)|是|NULL
+|muju_remark|varchar(200)|是|NULL
+|operator_sign|varchar(20)|是|NULL
+|planner_sign|varchar(20)|是|NULL
+|engineer_sign|varchar(20)|是|NULL
+|remaker_sign|varchar(20)|是|NULL
+|muju_no|varchar(25)|是|NULL

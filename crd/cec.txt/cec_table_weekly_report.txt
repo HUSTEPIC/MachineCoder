@@ -1,0 +1,17 @@
+== 表的结构 weekly_report
+
+|------
+|字段|类型|空|默认
+|------
+|//**report_id**//|int(4)|否|
+|weekly_no|varchar(32)|是|NULL
+|report_date_start|date|是|NULL
+|report_date_end|date|是|NULL
+|zk_scrap|double(4,2)|否|0.00
+|dd_scrap|double(4,2)|否|0.00
+|xl_scrap|double(4,2)|否|0.00
+|zh_scrap|double(4,2)|否|0.00
+|wz_scrap|double(4,2)|否|0.00
+|cx_scrap|double(4,2)|否|0.00
+|pz_scrap|double(4,2)|否|0.00
+|wx_scrap|double(4,2)|否|0.00

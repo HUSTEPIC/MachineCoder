@@ -1,0 +1,11 @@
+== 表的结构 quality_audit
+
+|------
+|字段|类型|空|默认
+|------
+|//**a_id**//|int(10)|否|
+|mid|int(10)|否|
+|audit_man|varchar(32)|否|
+|audit_date|date|否|
+|audit_remark|varchar(200)|否|
+|audit_ok|int(11)|否|

@@ -1,0 +1,12 @@
+== 表的结构 oem_price_fix
+
+|------
+|字段|类型|空|默认
+|------
+|//**pf_id**//|int(6)|否|
+|pr_id|int(6)|是|NULL
+|subject_no|varchar(30)|是|NULL
+|project|varchar(30)|是|NULL
+|project_val|varchar(60)|是|NULL
+|formula|varchar(20)|是|0
+|start_price_formula|varchar(20)|是|0

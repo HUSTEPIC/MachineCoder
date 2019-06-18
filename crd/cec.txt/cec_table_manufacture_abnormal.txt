@@ -1,0 +1,10 @@
+== 表的结构 manufacture_abnormal
+
+|------
+|字段|类型|空|默认
+|------
+|//**abid**//|int(8)|否|
+|contract_no|varchar(35)|否|
+|abnormal|text|是|NULL
+|abtime|datetime|是|NULL
+|aber|varchar(32)|是|NULL

@@ -1,0 +1,10 @@
+== 表的结构 halftone
+
+|------
+|字段|类型|空|默认
+|------
+|//**hid**//|int(9)|否|
+|ha_num|int(10)|否|
+|ha_man|varchar(32)|否|
+|ha_date|varchar(32)|否|
+|ha_product|varchar(32)|否|

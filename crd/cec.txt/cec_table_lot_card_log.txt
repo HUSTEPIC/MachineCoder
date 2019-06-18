@@ -1,0 +1,11 @@
+== 表的结构 lot_card_log
+
+|------
+|字段|类型|空|默认
+|------
+|//**id**//|int(10)|否|
+|lot_id|int(10)|是|NULL
+|ctime|datetime|是|NULL
+|ctype|varchar(15)|是|NULL
+|log_str|mediumtext|是|NULL
+|cuser|text|是|NULL
