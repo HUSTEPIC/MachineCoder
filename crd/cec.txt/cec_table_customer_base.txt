@@ -4,7 +4,7 @@
 |字段|类型|空|默认
 |------
 |//**cubid**//|int(7)|否|
-|**customer_no**|varchar(5)|是|NULL
+|customer_no|varchar(5)|是|NULL
 |customer_short|varchar(20)|是|NULL
 |address|varchar(80)|是|NULL
 |TPC_address|varchar(50)|是|NULL

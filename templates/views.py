@@ -5,7 +5,7 @@ from django.db import connection
 from django.db import transaction
 import sys
 # Create your views here.
-def queryCash(request):
+def query_submodel(request):
     if request.method == 'GET':
         queryDict = request.GET
     elif request.method == 'POST':

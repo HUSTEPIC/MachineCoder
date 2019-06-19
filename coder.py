@@ -51,6 +51,7 @@ def get_type_of_column(column_name):
         for row_index,row in enumerate(table):
             if row_index > 5:
                column_dic[row.split("|")[1]] = row.split("|")[2]
+#    print(column_dic)
     return column_dic[column]
 
 """
@@ -64,7 +65,7 @@ def code_query_no_cond(return_columns,table_name):
         else:
            code += "{} ".format(column)
     code += "FROM {}".format(table_name)
-    print(code)
+#    print(code)
     return code
 
 '''
@@ -108,62 +109,129 @@ def code_query_by(query_config):
         sql_condition.append(code)
     sql_order = "ORDER BY {} {}".format(order[1],order[0])
         
-    print(sql_base)
-    print(sql_condition)
-    print(sql_order)
+#    print(sql_base)
+#    print(sql_condition)
+#    print(sql_order)
     return sql_base,sql_condition,sql_order
 
 '''
 根据模板生成views.py的代码
 '''
 def query_coder(submodel_config_path):
-    file_name = 'views.py'
+    query_code = ''
+#    submodel_name = submodel_config_path.split('/')[-1].split('.')[0]
+#    file_name = "{}_views.py".format(submodel_name)
     query_config = read_submodels_config(submodel_config_path)
     sql_base,sql_conditions,sql_order = code_query_by(query_config)
-    with open(file_name,'w') as file_object:
-        file_object.write('def query_by(queryDict):\n')
-        file_object.write('    sql_base = \'\'\'{}\'\'\'\n'.format(sql_base))
-        file_object.write('    sql_end= \'\'\'{}\'\'\'\n'.format(sql_order))
-        file_object.write('    condition_index = 0\n')
-        file_object.write('    sql_conditions = \'\'\n')
-        # condition 
-        for index, sql_condition in enumerate(query_config['CONDITION']):
-            file_object.write('    {} = queryDict.get(\'{}\',\'\') \n'.format(sql_condition.split('.')[1],sql_condition.split('.')[1]))
-            file_object.write('    if {}: \n'.format(sql_condition.split('.')[1]))
-            file_object.write('       condition_index += 1\n')
-            file_object.write('       if condition_index == 1:\n')
-            file_object.write('          sql_conditions = \'\'\'WHERE {}\n'.format(sql_conditions[index],sql_condition.split('.')[1]))
-            file_object.write('       else:\n')
-            file_object.write('          sql_conditions += \'\'\'AND {}\n'.format(sql_conditions[index],sql_condition.split('.')[1]))
-            
-        file_object.write('    sql_final = sql_base + sql_conditions + sql_end\n')
-        file_object.write('    return sql_final \n')
-    with open(file_name,'r') as f:
-        query_code = f.read()        
+
+#    with open(file_name,'w') as file_object:
+    query_code += ('def query_by(queryDict):\n')
+    query_code += ('    sql_base = \'\'\'{}\'\'\'\n'.format(sql_base))
+    query_code += ('    sql_end= \'\'\'{}\'\'\'\n'.format(sql_order))
+    query_code += ('    condition_index = 0\n')
+    query_code += ('    sql_conditions = \'\'\n')
+    # condition 
+    for index, sql_condition in enumerate(query_config['CONDITION']):
+        query_code += ('    {} = queryDict.get(\'{}\',\'\') \n'.format(sql_condition.split('.')[1],sql_condition.split('.')[1]))
+        query_code += ('    if {}: \n'.format(sql_condition.split('.')[1]))
+        query_code += ('       condition_index += 1\n')
+        query_code += ('       if condition_index == 1:\n')
+        query_code += ('          sql_conditions = \'\'\'WHERE {}\n'.format(sql_conditions[index]))#,sql_condition.split('.')[1]))
+        query_code += ('       else:\n')
+        query_code += ('          sql_conditions += \'\'\'AND {}\n'.format(sql_conditions[index]))#,sql_condition.split('.')[1]))
+        
+    query_code += ('    sql_final = sql_base + sql_conditions + sql_end\n')
+    query_code += ('    return sql_final \n')
+#    with open(file_name,'r') as f:
+#        query_code = f.read()        
     return query_code
 
+
+'''
+生成urls.py
+'''
+def urls_coder(submodel_config_path):
+    submodel_name = submodel_config_path.split('/')[-1].split('.')[0]
+#    file_name = "{}_urls.py".format(submodel_name)
+#
+#    with open(file_name,'w') as file_object:
+#        file_object.write('urlpatterns = [\n')
+#        file_object.write('   path( \'qu{}/\', views.query_{}),\n'.format(submodel_name[0:3],submodel_name))
+#        file_object.write(']\n')
+#    with open(file_name,'r') as f:
+#        query_code = f.read()        
+
+    file_string = ''
+    file_string += ('urlpatterns = [\n')
+    file_string += ('   path( \'qu{}/\', views.query_{}),\n'.format(submodel_name[0:3],submodel_name))
+    file_string += (']\n')
+
+    return file_string
+
+''' 
+生成接口文档
+'''
+def interface_coder(interface_out_path,submodels,template_files):
+    with open(template_files["interface"],'r') as f:
+         interface_string = f.read()
+         interface_file_name = "{}/interface.md".format(interface_out_path)
+    for submodel in submodels:
+        submodel_config_path = "crd/{}.json".format(submodel)
+        query_config = read_submodels_config(submodel_config_path)
+        interface_string += "| {}/ | qu{}/ | {} |\n".format(submodel,submodel[0:3],query_config["CONDITION"])
+
+        # write to interface.md
+    with open(interface_file_name,'w') as file_object:
+         file_object.write(interface_string)
+            
 ''' 
 load temple code file
 '''
-def write_to_temple(temple_file,submodel_config_path):
-    file_name = 'views.py'
-    with open(temple_file,'r') as f:
-         temple_code = f.read()
+def src_coder(src_out_path,submodels,template_files):
+    for submodel in submodels:
+        submodel_config_path = "crd/{}.json".format(submodel)
+        views_file_name = "{}/{}/views.py".format(src_out_path,submodel)
+        urls_file_name = "{}/{}/urls.py".format(src_out_path,submodel)
+        # write to views.py
+        with open(template_files["views"],'r') as f:
+             temple_code = ''
+             lines = f.readlines()
+        for line in lines:
+            if "query_submodel" in line: 
+             #替换
+                line = line.replace("query_submodel","query_{}".format(submodel))
+            temple_code += line
+        query_code = query_coder(submodel_config_path)
+        final_code = temple_code + query_code 
+        with open(views_file_name ,'w') as file_object:
+            file_object.write(final_code)
 
-    query_code = query_coder(submodel_config_path)
-    final_code = temple_code + query_code 
 
-    with open(file_name,'w') as file_object:
-        file_object.write(final_code)
-    return (final_code)
+        # write to urls.py
+        with open(template_files["urls"],'r') as f:
+            temple_code = f.read()
+        urls_code = urls_coder(submodel_config_path)
+        final_code = temple_code + urls_code
+        with open(urls_file_name,'w') as file_object:
+            file_object.write(final_code)
+
 
 if __name__ == __name__:
-    table_name = "come_money"
-    column_name = "come_no"
-    return_columns=["come_money.come_no","come_money.come_money","come_money.come_date"]
-    temple_file = 'temple_code/query_temple_code.py'
-#    submodel_config_path = "crd/cash.json"
-    submodel_config_path = "crd/finance.json"
+    src_out_path = "../"
+    config_path = "crd/"
+    submodels = [
+        "customer",
+        "finance",
+        "cash"
+    ]
+    template_files = {
+        "views":'templates/views.py',
+        "urls":'templates/urls.py',
+        "interface":'templates/interface.md'
+    }
+
 #    read_table_column_name('come_money')
 #    code_query_no_cond(return_columns,table_name)
-    write_to_temple(temple_file,submodel_config_path)
+    
+    src_coder(src_out_path,submodels,template_files)
+    interface_coder(src_out_path,submodels,template_files)
