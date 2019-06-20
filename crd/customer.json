@@ -70,8 +70,6 @@
         "customer_base.status"
         ],
 
-        "TO":[
-            "customer_base"
-        ]
+        "INTO":"customer_base"
     }
 }

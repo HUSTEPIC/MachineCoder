@@ -20,6 +20,23 @@ def query_submodel(request):
     return JsonResponse(layui_json, safe=False)
     #return HttpResponse(JsonResponse(layui_json), content_type="application/json")
 
+# insert data
+def insert_submodel(request):
+    if request.method == 'GET':
+        insert_values_post = request.GET
+    elif request.method == 'POST':
+        insert_values_post = request.POST
+
+    sql_final = insert_sql(insert_values_post)
+    with connection.cursor() as cursor:
+        cursor.execute(sql_final)
+
+    response = HttpResponse()
+    response.content = 0 #val
+    response.status_code = 200
+
+    return response
+    
 def query_by_sql_code(sql_code,page,limit):
     with connection.cursor() as cursor:
         cursor.execute(sql_code)
